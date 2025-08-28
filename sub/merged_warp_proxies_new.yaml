@@ -43,7 +43,7 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: hysteria2_2bcff70
+- name: hysteria2_c97eb50
   type: hysteria2
   server: 2001:bc8:32d7:302::11
   port: 20088
@@ -55,7 +55,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria2_9ec2d61
+- name: hysteria2_0eb4a51
   type: hysteria2
   server: 2001:bc8:32d7:302::11
   port: 20088
@@ -67,7 +67,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: tuic_c78f482
+- name: tuic_c345532
   server: 2001:bc8:32d7:302::16
   port: 34997
   type: tuic
@@ -80,7 +80,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: hysteria2_ffe5773
+- name: hysteria2_fd91793
   type: hysteria2
   server: 2001:bc8:32d7:302::17
   port: 20088
@@ -92,7 +92,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: tuic_99d9214
+- name: tuic_6a41014
   server: 2001:bc8:32d7:302::16
   port: 34997
   type: tuic
@@ -105,7 +105,7 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: hysteria2_ef67125
+- name: hysteria2_834cd75
   type: hysteria2
   server: 2001:bc8:32d7:302::17
   port: 20088
@@ -117,7 +117,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_bd04b86
+- name: hysteria_f443e46
   type: hysteria
   server: 2604:6600:2004::18b
   port: 38845
@@ -128,7 +128,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_8988b77
+- name: hysteria_10fe227
   type: hysteria
   server: 208.87.243.151
   port: 38845
@@ -139,7 +139,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_0c08717
+- name: hysteria_928f8107
   type: hysteria
   server: 2604:6600:2004::18b
   port: 38845
@@ -150,7 +150,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_3201708
+- name: hysteria_dad3498
   type: hysteria
   server: 108.181.24.77
   port: 37872
@@ -162,7 +162,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_dcedd109
+- name: hysteria_f8f3629
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -174,7 +174,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: hy_0eafc80
+- name: hy_7675830
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -188,7 +188,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy_1172d61
+- name: hy_5b10e61
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -202,7 +202,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy_f507432
+- name: hy_a63ce92
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -216,7 +216,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy_e685093
+- name: hy_4eb0413
   type: hysteria
   server: 109.104.153.91
   port: 37519
@@ -230,7 +230,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_09bfc50
+- name: hy2_8041000
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -238,7 +238,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: hy2_bd73191
+- name: hy2_b108b81
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -246,7 +246,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: hy2_c3da102
+- name: hy2_497eb22
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -254,7 +254,7 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: hy2_ba44833
+- name: hy2_6309183
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -284,71 +284,71 @@ proxy-groups:
   tolerance: 50
   proxies:
   - WARP
-  - hysteria2_2bcff70
-  - hysteria2_9ec2d61
-  - tuic_c78f482
-  - hysteria2_ffe5773
-  - tuic_99d9214
-  - hysteria2_ef67125
-  - hysteria_bd04b86
-  - hysteria_8988b77
-  - hysteria_0c08717
-  - hysteria_3201708
-  - hysteria_dcedd109
-  - hy_0eafc80
-  - hy_1172d61
-  - hy_f507432
-  - hy_e685093
-  - hy2_09bfc50
-  - hy2_bd73191
-  - hy2_c3da102
-  - hy2_ba44833
+  - hysteria2_c97eb50
+  - hysteria2_0eb4a51
+  - tuic_c345532
+  - hysteria2_fd91793
+  - tuic_6a41014
+  - hysteria2_834cd75
+  - hysteria_f443e46
+  - hysteria_10fe227
+  - hysteria_928f8107
+  - hysteria_dad3498
+  - hysteria_f8f3629
+  - hy_7675830
+  - hy_5b10e61
+  - hy_a63ce92
+  - hy_4eb0413
+  - hy2_8041000
+  - hy2_b108b81
+  - hy2_497eb22
+  - hy2_6309183
 - name: 手动选择
   type: select
   proxies:
   - WARP
-  - hysteria2_2bcff70
-  - hysteria2_9ec2d61
-  - tuic_c78f482
-  - hysteria2_ffe5773
-  - tuic_99d9214
-  - hysteria2_ef67125
-  - hysteria_bd04b86
-  - hysteria_8988b77
-  - hysteria_0c08717
-  - hysteria_3201708
-  - hysteria_dcedd109
-  - hy_0eafc80
-  - hy_1172d61
-  - hy_f507432
-  - hy_e685093
-  - hy2_09bfc50
-  - hy2_bd73191
-  - hy2_c3da102
-  - hy2_ba44833
+  - hysteria2_c97eb50
+  - hysteria2_0eb4a51
+  - tuic_c345532
+  - hysteria2_fd91793
+  - tuic_6a41014
+  - hysteria2_834cd75
+  - hysteria_f443e46
+  - hysteria_10fe227
+  - hysteria_928f8107
+  - hysteria_dad3498
+  - hysteria_f8f3629
+  - hy_7675830
+  - hy_5b10e61
+  - hy_a63ce92
+  - hy_4eb0413
+  - hy2_8041000
+  - hy2_b108b81
+  - hy2_497eb22
+  - hy2_6309183
 - name: 负载均衡
   type: load-balance
   proxies:
   - WARP
-  - hysteria2_2bcff70
-  - hysteria2_9ec2d61
-  - tuic_c78f482
-  - hysteria2_ffe5773
-  - tuic_99d9214
-  - hysteria2_ef67125
-  - hysteria_bd04b86
-  - hysteria_8988b77
-  - hysteria_0c08717
-  - hysteria_3201708
-  - hysteria_dcedd109
-  - hy_0eafc80
-  - hy_1172d61
-  - hy_f507432
-  - hy_e685093
-  - hy2_09bfc50
-  - hy2_bd73191
-  - hy2_c3da102
-  - hy2_ba44833
+  - hysteria2_c97eb50
+  - hysteria2_0eb4a51
+  - tuic_c345532
+  - hysteria2_fd91793
+  - tuic_6a41014
+  - hysteria2_834cd75
+  - hysteria_f443e46
+  - hysteria_10fe227
+  - hysteria_928f8107
+  - hysteria_dad3498
+  - hysteria_f8f3629
+  - hy_7675830
+  - hy_5b10e61
+  - hy_a63ce92
+  - hy_4eb0413
+  - hy2_8041000
+  - hy2_b108b81
+  - hy2_497eb22
+  - hy2_6309183
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
