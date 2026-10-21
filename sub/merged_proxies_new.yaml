@@ -30,7 +30,7 @@ proxies:
   server: 1
   port: 1
   password: 1
-- name: vless_bd67e510
+- name: vless_3a8e8610
   network: ws
   port: 8080
   server: www.gov.se
@@ -47,7 +47,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: vless_ee2b1010
+  name: vless_a65be1010
   network: xhttp
   port: 443
   server: dey.lnmarketplace.net
@@ -62,7 +62,7 @@ proxies:
     mode: stream-one
     path: /kavir
 - client-fingerprint: chrome
-  name: vless_c9a791010
+  name: vless_653b9310
   network: ws
   port: 2087
   server: 8.35.211.73
@@ -76,7 +76,7 @@ proxies:
     headers:
       Host: d39333476.pages.dev
     path: /resource
-- name: vless_b490a610
+- name: vless_b980b910
   network: ws
   port: 443
   server: 185.193.29.123
@@ -91,7 +91,7 @@ proxies:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: vless_bc046710
+  name: vless_be9e31010
   network: ws
   port: 2083
   server: 46.101.253.244
@@ -107,7 +107,7 @@ proxies:
     path: /
 - alpn:
   - http/1.1
-  name: trojan_b3014410
+  name: trojan_6170d810
   password: humanity
   port: 443
   server: 216.24.57.7
@@ -119,7 +119,7 @@ proxies:
     path: /assignment
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: vless_64e36610
+  name: vless_6a9bc1010
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -132,7 +132,7 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
-  name: vless_1f8e3910
+  name: vless_581b0910
   network: ws
   port: 443
   server: 162.159.152.4
@@ -146,7 +146,7 @@ proxies:
     headers:
       Host: rAyAn-007.mAxImA.DpDnS.OrG
     path: /
-- name: vless_38490210
+- name: vless_87cc1210
   network: ws
   port: 8880
   server: 45.131.210.30
@@ -161,7 +161,7 @@ proxies:
       Host: vms.lifetime05.workers.dev
     path: /
 - client-fingerprint: android
-  name: vless_2ff94710
+  name: vless_664fa910
   network: ws
   port: 443
   server: 213.111.148.137
@@ -176,7 +176,7 @@ proxies:
       Host: proxy-1cu.pages.dev
     path: /
 - client-fingerprint: android
-  name: vless_02484010
+  name: vless_f859f310
   network: ws
   port: 443
   server: 103.43.75.82
@@ -191,7 +191,7 @@ proxies:
       Host: proxy-1cu.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: vless_8599c610
+  name: vless_c8258310
   network: ws
   port: 2083
   server: 188.164.248.48
@@ -206,7 +206,7 @@ proxies:
       Host: helloapps.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: vless_cd900010
+  name: vless_9eaa4510
   network: ws
   port: 2083
   server: 172.66.0.230
@@ -221,7 +221,7 @@ proxies:
       Host: helloapps.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: vless_4e086510
+  name: vless_69734410
   network: ws
   port: 2083
   server: 172.67.69.86
@@ -235,9 +235,24 @@ proxies:
     headers:
       Host: helloapps.cc.cd
     path: /
+- client-fingerprint: chrome
+  name: vless_b4af0810
+  network: ws
+  port: 2040
+  server: 188.245.191.19
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdd897a6-57f2-4311-835f-0b6c5ac5a1a2
+  ws-opts:
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    path: /@Marisa_kristi
 - alpn:
   - http/1.1
-  name: trojan_12df4110
+  name: trojan_408c3610
   password: mitivpn
   port: 443
   server: 167.82.76.7
@@ -250,7 +265,22 @@ proxies:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - client-fingerprint: android
-  name: vless_372201010
+  name: vless_a5c79810
+  network: ws
+  port: 2087
+  server: 103.116.7.100
+  servername: proxy-1cu.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  ws-opts:
+    headers:
+      Host: proxy-1cu.pages.dev
+    path: /
+- client-fingerprint: android
+  name: vless_b0f29110
   network: ws
   port: 443
   server: 152.69.199.75
@@ -264,20 +294,7 @@ proxies:
     headers:
       Host: proxy-1cu.pages.dev
     path: /
-- client-fingerprint: firefox
-  name: vless_5c6561010
-  port: 25895
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: ee.h1cloud.net
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-- name: anytls_68fdb310
+- name: anytls_1e14d610
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -287,7 +304,7 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: trojan_b4c75710
+  name: trojan_f7114910
   network: tcp
   password: UX82473651
   port: 443
@@ -298,7 +315,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: vless_8fd00810
+  name: vless_9ef53510
   network: ws
   port: 8443
   server: 43.129.80.179
@@ -312,159 +329,134 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /
-- name: ss_612b9910
-  type: ss
-  server: 82.38.31.191
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.191:8080#🇬🇧GB-82.38.31.191-0092
-- name: ss_8802e110
-  type: ss
-  server: 156.146.38.168
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.168:443#🇺🇸US-156.146.38.168-0074
-- name: ss_af684910
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#🇬🇧GB-82.38.31.217-0107
-- name: ss_6ede0310
+- name: ss_1cffc1010
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.169:443#🇺🇸US-156.146.38.169-0077
-- name: trojan_f9f56410
-  type: trojan
-  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-  original_link: trojan://dba20dcb635e430fa4d3bfc303a149d2@blog.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com#🇺🇸US-216.106.186.32-0078
-- name: trojan_5ea30510
+  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.169:443#🇺🇸US-156.146.38.169-0098
+- name: trojan_93898510
   type: trojan
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   password: f0eb8c92ce8946aaba856569cff1a16b
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: false
-  original_link: trojan://f0eb8c92ce8946aaba856569cff1a16b@resources.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#🇺🇸US-216.106.186.33-0076
-- name: ss_85ca4810
+  original_link: trojan://f0eb8c92ce8946aaba856569cff1a16b@resources.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#🇺🇸US-216.106.186.33-0093
+- name: ss_34242610
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#🇬🇧GB-82.38.31.217-0062
+- name: vmess_ca731810
+  type: vmess
+  server: de-d21e56c13c.shamanapp.online
+  port: 33744
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  sni: de-d21e56c13c.shamanapp.online:33744
+  ws-opts:
+    path: /ShamanVMESS2026
+    headers:
+      Host: de-d21e56c13c.shamanapp.online
+  original_link: vmess://ewogICAgImFkZCI6ICJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICJkZS1kMjFlNTZjMTNjLnNoYW1hbmFwcC5vbmxpbmUiLAogICAgImlkIjogImIzYTExMDY4LTFhN2UtNDY0My04NWRlLTdjODJjY2U0Njk0MyIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi9TaGFtYW5WTUVTUzIwMjYiLAogICAgInBvcnQiOiAzMzc0NCwKICAgICJwcyI6ICLwn4em8J+HqkFFLTIxNy42MC4xODMuOTUtNDg4MyIsCiAgICAidGxzIjogIiIsCiAgICAidHlwZSI6ICJhdXRvIiwKICAgICJzZWN1cml0eSI6ICJhdXRvIiwKICAgICJza2lwLWNlcnQtdmVyaWZ5IjogZmFsc2UsCiAgICAic25pIjogImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIKfQ==
+- name: ss_ab3e51010
   type: ss
   server: 57.131.48.45
   port: 8388
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
-  original_link: ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==@57.131.48.45:8388#🇮🇹IT-57.131.48.45-0155
-- name: ss_ac67f610
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-  original_link: ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==@51.83.192.80:8388#🇫🇷FR-51.83.192.80-0130
-- name: ss_8aea7110
-  type: ss
-  server: 82.38.31.42
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#🇬🇧GB-82.38.31.42-0141
-- name: ss_48dff210
-  type: ss
-  server: 178.83.185.156
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@178.83.185.156:8080#🇬🇧GB-178.83.185.156-0146
-- name: ss_5f5131010
-  type: ss
-  server: 193.29.139.151
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#🇳🇱NL-193.29.139.151-0164
-- name: ss_8282a210
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#🇯🇵JP-149.22.87.204-0199
-- name: ss_f5476210
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#🇯🇵JP-149.22.87.240-0131
-- name: ss_798ac010
+  original_link: ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==@57.131.48.45:8388#🇮🇹IT-57.131.48.45-0099
+- name: ss_13e19010
   type: ss
   server: 37.19.198.243
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#🇺🇸US-37.19.198.243-0081
-- name: ss_86cf61010
+  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#🇺🇸US-37.19.198.243-0058
+- name: ss_6bd93410
+  type: ss
+  server: 178.83.185.156
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@178.83.185.156:8080#🇬🇧GB-178.83.185.156-0106
+- name: ss_083b2510
+  type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#🇬🇧GB-82.38.31.42-0117
+- name: trojan_ebb9c1010
+  type: trojan
+  server: pl2.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: pl2.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl2.dedushka.top:443?security=tls&sni=pl2.dedushka.top#🇵🇱PL-31.133.0.186-0461
+- name: ss_c1c88810
+  type: ss
+  server: 193.29.139.151
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#🇳🇱NL-193.29.139.151-0108
+- name: ss_17e3e1010
   type: ss
   server: 67.159.18.34
   port: 17001
   cipher: aes-256-gcm
   password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
   udp: true
-  original_link: ss://YWVzLTI1Ni1nY206STZvOU5uaWFsWUxNRWpWdDI4UkY0ZHBqbXI5d012Tkw=@67.159.18.34:17001#🇨🇿CZ-67.159.18.34-0168
-- name: ss_8f682810
+  original_link: ss://YWVzLTI1Ni1nY206STZvOU5uaWFsWUxNRWpWdDI4UkY0ZHBqbXI5d012Tkw=@67.159.18.34:17001#🇨🇿CZ-67.159.18.34-0139
+- name: ss_9ec5a810
   type: ss
   server: 51.222.136.236
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-  original_link: ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@51.222.136.236:8882#🇨🇦CA-51.222.136.236-0166
-- name: ss_97fc7410
-  type: ss
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8080#🇬🇧GB-82.38.31.199-0203
-- name: trojan_6c60a410
+  original_link: ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@51.222.136.236:8882#🇨🇦CA-51.222.136.236-0145
+- name: trojan_69068910
   type: trojan
   server: de7.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   sni: de7.dedushka.top
   skip-cert-verify: false
-  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de7.dedushka.top:443?security=tls&sni=de7.dedushka.top#🇩🇪DE-188.241.241.200-0201
-- name: ss_6b98d910
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de7.dedushka.top:443?security=tls&sni=de7.dedushka.top#🇩🇪DE-188.241.241.200-0126
+- name: ss_3ec68810
   type: ss
-  server: p141.panda001.net
-  port: 4652
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
+  server: 94.156.250.148
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
   udp: true
-  original_link: ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p141.panda001.net:4652#🇰🇷KR-218.237.185.234-0208
-- name: vmess_4f1d6610
+  original_link: ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@94.156.250.148:7001#🇬🇧GB-94.156.250.148-0147
+- name: ss_f7992910
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOY0FYYzBVWkk2eVFKRTFwOFFtT3Y4@57.129.113.16:8388#🇩🇪DE-57.129.113.16-0156
+- name: vmess_3244f410
   type: vmess
   server: 54.37.131.126
   port: 80
@@ -478,139 +470,319 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-  original_link: vmess://ewogICAgImFkZCI6ICI1NC4zNy4xMzEuMTI2IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uaGVzYW5pZDguaXIuIiwKICAgICJpZCI6ICI2ZGVlZjlhZC0xMzU3LTQ0M2QtZjk1Yy1jYjE4OTUyYzIwYjMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+Hq/Cfh7dGUi01NC4zNy4xMzEuMTI2LTAxNzkiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==
-- name: ss_4af05010
+  original_link: vmess://ewogICAgImFkZCI6ICI1NC4zNy4xMzEuMTI2IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uaGVzYW5pZDguaXIuIiwKICAgICJpZCI6ICI2ZGVlZjlhZC0xMzU3LTQ0M2QtZjk1Yy1jYjE4OTUyYzIwYjMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+Hq/Cfh7dGUi01NC4zNy4xMzEuMTI2LTAxNDkiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==
+- name: ss_58d93510
   type: ss
-  server: 94.156.250.148
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  server: 82.38.31.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-  original_link: ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@94.156.250.148:7001#🇬🇧GB-94.156.250.148-0171
-- name: ss_a6625910
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8080#🇬🇧GB-82.38.31.199-0144
+- name: ss_c3aa8710
   type: ss
-  server: 198.98.53.130
+  server: 149.22.87.204
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#🇺🇸US-198.98.53.130-0210
-- name: ss_63cea610
-  type: ss
-  server: 57.129.113.16
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOY0FYYzBVWkk2eVFKRTFwOFFtT3Y4@57.129.113.16:8388#🇩🇪DE-57.129.113.16-0169
-- name: ss_1cad4510
-  type: ss
-  server: 64.74.163.67
-  port: 18764
   cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
+  password: shadowsocks
   udp: true
-  original_link: ss://YWVzLTEyOC1nY206NGVmZTFhZjI3MmU3MjkyMTM5Yjg4OWY2YTYzZWUwNzE=@64.74.163.67:18764#🇺🇸US-64.74.163.67-0174
-- name: ss_b135b710
+  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#🇯🇵JP-149.22.87.204-0113
+- name: ss_07a59210
   type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  original_link: ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@15.204.247.206:4444#🇺🇸US-15.204.247.206-0183
-- name: ss_9b3a1110
-  type: ss
-  server: 216.105.168.18
+  server: 149.22.87.240
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hCCWOcIsK5wrFz4OX70rWf
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18:443#🇺🇸US-216.105.168.18-0197
-- name: ss_17070210
-  type: ss
-  server: 103.149.182.79
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.182.79:8388#🇭🇰HK-103.149.182.79-0212
-- name: ss_7460c010
+  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443#🇯🇵JP-149.22.87.240-0125
+- name: trojan_c7dca210
+  type: trojan
+  server: 188.241.241.236
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: de10.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.236:443?security=tls&sni=de10.dedushka.top#🇩🇪DE-188.241.241.236-0427
+- name: trojan_a1f97310
+  type: trojan
+  server: de8.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: de8.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de8.dedushka.top:443?security=tls&sni=de8.dedushka.top#🇩🇪DE-188.241.241.117-0425
+- name: trojan_958b3910
+  type: trojan
+  server: de4.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: de4.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de4.dedushka.top:443?security=tls&sni=de4.dedushka.top#🇩🇪DE-188.241.241.102-0426
+- name: ss_cab67910
   type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
   udp: true
-  original_link: ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#🇯🇵JP-154.36.158.197-0219
-- name: trojan_42a23810
+  original_link: ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#🇯🇵JP-154.36.158.197-0245
+- name: trojan_fa45b810
+  type: trojan
+  server: de6.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: de6.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de6.dedushka.top:443?security=tls&sni=de6.dedushka.top#🇩🇪DE-188.241.241.49-0424
+- name: ss_4d2e01010
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#🇺🇸US-198.98.53.130-0168
+- name: ss_6cf66110
+  type: ss
+  server: 158.173.24.73
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@158.173.24.73:443#🇬🇧GB-158.173.24.73-0103
+- name: trojan_27b70610
+  type: trojan
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+  original_link: trojan://dba20dcb635e430fa4d3bfc303a149d2@blog.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com#🇺🇸US-216.106.186.32-0088
+- name: ss_b0e04310
+  type: ss
+  server: 191.223.221.53
+  port: 8388
+  cipher: aes-256-gcm
+  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206SnVENk1OZ3RYM25WcEN6RnpYWVZZakRUWjduc21hVHY=@191.223.221.53:8388#🇯🇵JP-191.223.221.53-0143
+- name: ss_16105410
+  type: ss
+  server: 158.173.20.171
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+  original_link: ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@158.173.20.171:443#🇳🇱NL-158.173.20.171-0151
+- name: ss_b2f90710
+  type: ss
+  server: 216.105.168.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hCCWOcIsK5wrFz4OX70rWf
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm@216.105.168.18:443#🇺🇸US-216.105.168.18-0165
+- name: ss_19465210
+  type: ss
+  server: p141.panda001.net
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+  original_link: ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p141.panda001.net:4652#🇰🇷KR-218.237.185.234-0167
+- name: ss_dad57310
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@51.79.85.185:8118#🇨🇦CA-51.79.85.185-0218
+- name: ss_1a73d310
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#🇷🇴RO-154.46.31.106-0416
+- name: ss_ea443810
+  type: ss
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443#🇷🇴RO-154.46.31.106-1890
+- name: trojan_0a640410
   type: trojan
   server: apt-midge.rooster465.autos
   port: 443
   password: IQ68037294
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://IQ68037294@apt-midge.rooster465.autos:443?security=tls#🇸🇬SG-91.243.81.248-5228
-- name: trojan_ab81f610
+  original_link: trojan://IQ68037294@apt-midge.rooster465.autos:443?security=tls#🇸🇬SG-91.243.81.248-4618
+- name: trojan_8da88610
   type: trojan
   server: evident-gnat.rooster465.autos
   port: 443
   password: JA96378052
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls#🇦🇺AU-87.121.33.164-5330
-- name: trojan_d43e4410
+  original_link: trojan://JA96378052@evident-gnat.rooster465.autos:443?security=tls#🇦🇺AU-87.121.33.164-4720
+- name: trojan_64e9d410
+  type: trojan
+  server: nl-1.tr202607.com
+  port: 443
+  password: LSS6HLnp7IeEEJUcox
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://LSS6HLnp7IeEEJUcox@nl-1.tr202607.com:443?security=tls#🇳🇱NL-78.142.194.96-4770
+- name: trojan_39f3a410
   type: trojan
   server: pro-crane.rooster465.autos
   port: 443
   password: PD07395842
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://PD07395842@pro-crane.rooster465.autos:443?security=tls#🇳🇱NL-89.39.70.120-5387
-- name: ss_92171110
-  type: ss
-  server: 103.141.221.124
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.141.221.124:8388#🇭🇰HK-103.141.221.124-5391
-- name: trojan_2e81f810
+  original_link: trojan://PD07395842@pro-crane.rooster465.autos:443?security=tls#🇳🇱NL-89.39.70.120-4771
+- name: trojan_d60d1010
+  type: trojan
+  server: kind-unicorn.rooster465.autos
+  port: 443
+  password: NQ26071394
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://NQ26071394@kind-unicorn.rooster465.autos:443?security=tls#🇭🇰HK-185.14.47.56-4774
+- name: trojan_2e1a2710
+  type: trojan
+  server: outgoing-cockatoo.rooster465.autos
+  port: 443
+  password: WF42809561
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://WF42809561@outgoing-cockatoo.rooster465.autos:443?security=tls#🇱🇺LU-85.234.78.169-4775
+- name: trojan_96580010
+  type: trojan
+  server: outgoing-ladybird.rooster465.autos
+  port: 443
+  password: IL37892054
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IL37892054@outgoing-ladybird.rooster465.autos:443?security=tls#🇯🇵JP-94.177.131.205-4776
+- name: trojan_9bba4010
+  type: trojan
+  server: top-goshawk.rooster465.autos
+  port: 443
+  password: WF42809561
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://WF42809561@top-goshawk.rooster465.autos:443?security=tls#🇵🇱PL-202.78.163.173-4777
+- name: trojan_17305610
   type: trojan
   server: emerging-weevil.rooster465.autos
   port: 443
   password: CF68213490
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://CF68213490@emerging-weevil.rooster465.autos:443?security=tls#🇳🇱NL-193.169.239.14-5396
-- name: trojan_ab674210
+  original_link: trojan://CF68213490@emerging-weevil.rooster465.autos:443?security=tls#🇳🇱NL-193.169.239.14-4778
+- name: trojan_93cc0810
   type: trojan
-  server: v2jp.k1.ssnss.live
-  port: 44184
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  server: adjusted-labrador.rooster465.autos
+  port: 443
+  password: ND91608427
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://d050aca3-9df2-4461-90ec-92373c1d7636@v2jp.k1.ssnss.live:44184?security=tls#🇯🇵JP-43.207.4.213-5404
-- name: trojan_70873410
-  server: 172.66.47.18
+  original_link: trojan://ND91608427@adjusted-labrador.rooster465.autos:443?security=tls#🇯🇵JP-95.85.94.214-4784
+- name: trojan_557ea310
+  type: trojan
+  server: glowing-deer.rooster465.autos
+  port: 443
+  password: ZY07256934
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://ZY07256934@glowing-deer.rooster465.autos:443?security=tls#🇯🇵JP-31.223.184.187-4787
+- name: trojan_566861010
+  type: trojan
+  server: growing-oyster.rooster465.autos
+  port: 443
+  password: XG59623478
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://XG59623478@growing-oyster.rooster465.autos:443?security=tls#🇭🇰HK-91.199.84.204-4788
+- name: trojan_96ae41010
+  type: trojan
+  server: growing-tuna.rooster465.autos
+  port: 443
+  password: IL37892054
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IL37892054@growing-tuna.rooster465.autos:443?security=tls#🇯🇵JP-94.177.131.233-4799
+- name: trojan_eb5a7810
+  type: trojan
+  server: still-mastodon.rooster465.autos
+  port: 443
+  password: IQ68037294
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IQ68037294@still-mastodon.rooster465.autos:443?security=tls#🇸🇬SG-91.243.81.20-4800
+- name: trojan_a5007910
+  type: trojan
+  server: pet-albacore.rooster465.autos
+  port: 443
+  password: WG39087154
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://WG39087154@pet-albacore.rooster465.autos:443?security=tls#🇸🇬SG-45.135.228.189-4801
+- name: trojan_94287510
+  type: trojan
+  server: helpful-possum.rooster465.autos
+  port: 443
+  password: FC60532879
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://FC60532879@helpful-possum.rooster465.autos:443?security=tls#🇸🇬SG-91.243.81.128-4804
+- name: trojan_62d9c710
+  type: trojan
+  server: fair-reptile.rooster465.autos
+  port: 443
+  password: IQ68037294
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IQ68037294@fair-reptile.rooster465.autos:443?security=tls#🇸🇬SG-81.28.13.180-4805
+- name: trojan_99686110
+  type: trojan
+  server: fun-salmon.rooster465.autos
+  port: 443
+  password: IQ68037294
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IQ68037294@fun-salmon.rooster465.autos:443?security=tls#🇯🇵JP-85.234.83.36-4807
+- name: trojan_6f9b6510
+  type: trojan
+  server: endless-kiwi.rooster465.autos
+  port: 443
+  password: IQ68037294
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IQ68037294@endless-kiwi.rooster465.autos:443?security=tls#🇸🇬SG-91.243.81.78-4808
+- name: trojan_cd019210
+  type: trojan
+  server: learning-leopard.rooster465.autos
+  port: 443
+  password: ND91608427
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://ND91608427@learning-leopard.rooster465.autos:443?security=tls#🇯🇵JP-85.234.83.230-4837
+- name: trojan_57af8610
+  server: ca.tronsg.com
   port: 443
   type: trojan
-  password: e7TTceggMwUMg+aFN:F4
-  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  password: Trojan@82164024
+  sni: ca.tronsg.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
-    headers:
-      Host: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-- name: http_3eaee610
-  server: purposebydesig.club
-  port: 443
-  type: http
-  password: None
-  tls: true
-  skip-cert-verify: false
-- name: ssr_0f506310
+- name: ssr_a44f7210
   type: ssr
   server: 107.151.182.253
   port: 8080
@@ -618,15 +790,7 @@ proxies:
   cipher: rc4-md5
   protocol: origin
   obfs: plain
-- name: http_be7401010
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
-- name: http_3ecbb610
+- name: http_e3704910
   server: usgp1-cdn-route.couldflare-cdn.com
   port: 443
   type: http
@@ -634,7 +798,7 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: http_fea62310
+- name: http_3e0da410
   server: usgp3-cdn-route.couldflare-cdn.com
   port: 443
   type: http
@@ -642,7 +806,7 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: http_98e24110
+- name: http_7539b510
   server: usgp2-cdn-route.couldflare-cdn.com
   port: 443
   type: http
@@ -650,40 +814,28 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- cipher: chacha20-ietf-poly1305
-  name: ss_51037210
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  port: 443
-  server: 154.46.31.106
+- cipher: aes-128-gcm
+  name: ss_83a23210
+  password: 3653a8e7d4956b523e18db47e749af30
+  port: 12571
+  server: 62.210.26.134
   type: ss
-- alpn:
-  - http/1.1
-  name: trojan_1b770110
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: de10.dedushka.top
-  skip-cert-verify: false
-  sni: de10.dedushka.top
-  type: trojan
-- name: vless_6eed9210
+- name: vless_24e01310
   type: vless
-  server: 31.57.185.220
+  server: alman.5f2vvtqh5syot.info
   port: 443
-  uuid: 2e2e204a-7e61-48fb-8182-5955821e8da0
+  uuid: ed6c724c-435f-4f83-a781-f57579af320b
   network: ws
-  tls: false
+  servername: alman.5f2vvtqh5syot.info
+  tls: true
+  client-fingerprint: unsafe
+  ws-opts:
+    path: /9d9fdbc18c834cffab4276811501fbae
+    headers:
+      Host: alman.5f2vvtqh5syot.info
   skip-cert-verify: true
   udp: true
-- name: hysteria2_b3fd9710
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: 129.213.91.185
-  tls: false
-  type: hysteria2
-- name: hysteria2_3a55c610
+- name: hysteria2_abdad110
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -693,39 +845,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: hysteria2_eb332710
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: nas.aizhzo.com
-  skip-cert-verify: false
-  sni: nas.aizhzo.com
-  tls: false
-  type: hysteria2
-- name: hysteria2_3679f910
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: hy2.aspidnet.xyz
-  sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- encryption: none
-  name: vless_3fcf9110
-  network: ws
-  port: 14430
-  server: 95.174.68.188
-  servername: 95.174.68.188
-  tls: false
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  ws-opts:
-    headers:
-      Host: 95.174.68.188
-    path: /vless
-- name: vless_06f39410
+- name: vless_15bfc510
   network: ws
   port: 443
   server: 89.125.139.115
@@ -737,40 +857,57 @@ proxies:
     headers:
       Host: free.cndyw.ggff.net
     path: pyip=bpb.yousef.isegaro.comfp=chrome
-- name: vless_af669910
-  network: ws
-  port: 443
-  server: 213.111.177.107
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: /socks5=888:888@hkip.1d.mom:1080fp=chrome
 - client-fingerprint: chrome
   encryption: none
-  name: vless_f7829510
+  name: vless_f33b8910
   network: ws
   port: 443
-  server: 31.57.190.89
+  server: 172.64.158.170
   servername: ccc.010304.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-    path: /fp=chrome
-- encryption: none
-  name: vless_329e81010
-  port: 22222
-  server: 51.24.54.202
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: vless_b5285510
+  network: ws
+  port: 443
+  server: 104.21.91.244
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  ws-opts:
+    headers:
+      Host: lucasjow.us.ci
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+- name: vless_a2083610
+  port: 10002
+  server: connect.hondamotor.site
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: vless_15a91510
+  uuid: c6362720-0931-4b91-b187-d8ecf3149734
+- name: vless_5f99b410
+  network: ws
+  port: 443
+  server: 85.90.197.156
+  servername: free.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: free.cndyw.ggff.net
+    path: pyip=bpb.yousef.isegaro.comfp=random
+- name: vless_2e749110
   network: ws
   port: 8443
   server: 37.221.210.113
@@ -782,122 +919,114 @@ proxies:
     headers:
       Host: free.cndyw.ggff.net
     path: pyip=bpb.yousef.isegaro.comfp=chrome
-- encryption: none
-  name: vless_ec469610
+- name: vless_edae6610
   network: ws
   port: 14430
-  server: 13.140.56.100
+  server: 5.253.29.254
+  servername: 5.253.29.254
   tls: false
   type: vless
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
   ws-opts:
     headers:
-      Host: 13.140.56.100
+      Host: 5.253.29.254
     path: /vless
-- name: vless_da488710
-  network: ws
-  port: 443
-  server: uk1-2.998998.best
-  servername: server13.9966338.xyz
-  tls: true
-  type: vless
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  ws-opts:
-    headers:
-      Host: server13.9966338.xyz
-    path: /resiouhgggggggggg?ed=2560fp=chrome
-- client-fingerprint: chrome
-  name: vless_b922f410
-  network: ws
-  port: 8443
-  server: 185.48.250.113
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: anytls_a917c910
-  password: 0324fbc29561
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: anytls_ece7f1010
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60005
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: vless_25f901010
-  network: http
-  port: 443
-  server: 100.54.27.217
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: http_e16c41010
-  port: 9002
-  server: 158.173.154.4
+- name: http_0baef210
+  port: 9443
+  server: 149.36.51.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: http_b9d36610
+- name: http_5e6cc910
   port: 443
-  server: 217.210.129.243
+  server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: http_d94b1510
+- name: http_30f61310
   password: None
-  port: 9002
-  server: 138.199.35.209
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: vless_362bb1010
-  server: 206.1.103.26
+- name: http_1c09d910
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: http_0f1f8210
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: http_c15dd510
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: vless_1998c310
+  server: 89.127.210.40
   port: 443
   type: vless
-  uuid: 0ad58d97-922c-4e85-b820-9d04dab5b8ec
-  tls: false
+  uuid: 4HqptXtMlj8IT2
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: wYnBI1xzD8pqAN7xyI8OKotC_Eo2Vz-z08fI5suWQFU
+    short-id: 54f1c973
+  servername: onlycats.photos
+  client-fingerprint: chrome
   network: tcp
   udp: true
-- name: vless_764ed810
-  server: superjinx-production-3aac.up.railway.app
+- name: vless_4d11d210
+  server: searchjappro2.xyy123.date
   port: 443
   type: vless
-  uuid: 4c191d9b-e1e6-4cc8-9718-e071cd100e52
+  uuid: 21973715-af4f-416a-9809-4a6d33b48cab
   tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: I4sC7wO_OjKQcby3249aC1qGAmoMgHEFtRUvoLUy2yc
+    short-id: f49827
+  servername: blog.api.www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: trojan_7eead010
+  server: lv1.dedushka.top
+  port: 443
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: lv1.dedushka.top
   alpn:
   - http/1.1
-  servername: superjinx-production-3aac.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /cdn/d3e029fa-a762-4e27-8571-3cf145e0d011?ed=2560
-    headers:
-      Host: superjinx-production-3aac.up.railway.app
+  skip-cert-verify: true
   udp: true
-- name: vless_189c7110
+- name: vless_d764a910
+  server: pl1.h1cloud.net
+  port: 27591
+  type: vless
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  tls: true
+  reality-opts:
+    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+    short-id: 6c5c7900406a1ae7
+  servername: www.samsung.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: vless_64da0410
   server: pl-a50baf0d7f.shamanapp.online
   port: 443
   type: vless
@@ -914,224 +1043,397 @@ proxies:
     host: pl-a50baf0d7f.shamanapp.online
     mode: stream-up
   udp: true
-- name: vless_0d6d6910
-  server: 62.60.233.157
+- name: vless_b38541010
+  server: 62.133.63.45
   port: 8444
   type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
   tls: true
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
   servername: github.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: GunService
   udp: true
-- name: anytls_7e37f610
-  server: svip.skycon808.com
-  port: 47531
-  type: anytls
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  udp: true
-  sni: tw15.swiftrelay.cc
-  skip-cert-verify: true
-- name: vless_13ed9010
+- name: vless_6b45d210
+  server: 18.222.93.69
+  port: 443
   type: vless
-  server: 172.66.158.115
-  port: 8080
-  uuid: f8f5d3a5-54bd-4f52-9759-137bdbf950db
-  security: none
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
   tls: false
-  sni: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: 23g-lively-resonance-96b9hsf.msc633k2.workers.dev
-  original_link: vless://f8f5d3a5-54bd-4f52-9759-137bdbf950db@172.66.158.115:8080?security=none&type=ws&path=/&host=23g-lively-resonance-96b9hsf.msc633k2.workers.dev&packetEncoding=xudp&encryption=none#美国+CloudFlare节点
-- name: vless_16030910
-  type: vless
-  server: 172.66.44.246
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  security: tls
-  tls: true
-  sni: lucasjow.us.ci
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-  original_link: vless://e6df2095-a73c-4043-8693-8d5a03686870@172.66.44.246:443?security=tls&type=ws&path=/cart/docs/www/proxyip=108.160.132.132&host=lucasjow.us.ci&packetEncoding=xudp&sni=lucasjow.us.ci&fp=qq#美国+CloudFlare节点
-- name: vless_c886e410
-  type: vless
-  server: 104.17.100.185
-  port: 443
-  uuid: 1e922b22-d169-4461-89c1-07e09ff2617c
-  security: tls
-  tls: true
-  sni: vlesss.xttd.eu.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.fxxk.dedyn.io
-    headers:
-      Host: vlesss.xttd.eu.org
-  original_link: vless://1e922b22-d169-4461-89c1-07e09ff2617c@104.17.100.185:443?security=tls&type=ws&path=/proxyip=proxyip.fxxk.dedyn.io&host=vlesss.xttd.eu.org&packetEncoding=xudp&alpn=h3&sni=vlesss.xttd.eu.org&fp=chrome#美国+CloudFlare节点
-- name: vless_36078710
-  type: vless
-  server: 198.177.56.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  security: none
-  tls: false
-  sni: ''
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime09.workers.dev
-  original_link: vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.177.56.30:8880?security=none&type=ws&path=/&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#美国+V2CROSS.COM
-- name: vless_67dca210
-  type: vless
-  network: ws
-  server: 203.202.232.110
-  port: 443
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  servername: vlso5.1d.mom
-  tls: true
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: /socks5=888:888
-- name: vless_19832210
-  type: vless
-  network: ws
-  server: 109.120.134.243
-  port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  servername: free.cndyw.ggff.net
-  tls: true
-  ws-opts:
-    headers:
-      Host: free.cndyw.ggff.net
-    path: pyip=bpb.yousef.isegaro.comfp=chrome
-- name: vless_c7834110
-  type: vless
-  network: tcp
-  server: 149.202.57.89
-  port: 443
-  uuid: 126fdbae-bb34-5882-a40c-fb60c5ea4afb
-  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  skip-cert-verify: false
-  tls: true
+      Host:
+      - play.googleapis.com
   udp: true
-  tfo: false
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: vless_b2b44310
-  type: vless
-  network: ws
-  server: 46.225.46.136
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
-  servername: hoert1rert.localip.ir
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: hoert1rert.localip.ir
-    path: /hokm
-- name: vless_ebc2b710
-  type: vless
-  network: ws
-  server: 200.165.231.209
+- name: vless_a5753710
+  server: remotok.softupdatecenter.com
   port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  servername: wstg.datasynctrue.online
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-    path: /api/connect
-- name: vless_776f5710
   type: vless
-  network: ws
-  server: 91.210.169.181
+  uuid: 5de6a0ad-7d73-410b-ad50-a2bb5d47b93c
+  tls: true
+  alpn:
+  - h2
+  servername: remotok.softupdatecenter.com
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /assets/60110f98d7505f698ac46760f07e6130/
+    host: remotok.softupdatecenter.com
+    mode: packet-up
+    x-padding-bytes: 128-768
+    x-padding-header: X-Request-Context
+    x-padding-key: request_context
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: header
+  udp: true
+- name: trojan_fa1fa310
+  server: b2n.ir
   port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  servername: wstg.datasynctrue.online
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: wstg.datasynctrue.online
-    path: /api/connect
-- name: vless_4b366010
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: www.lamer.com.sg
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
+  type: trojan
+  password: mitivpn
+  sni: de.mitivpn.in.net
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: de.mitivpn.in.net
   udp: true
-- name: vless_26ee5410
+- name: vless_00d3e210
   type: vless
   server: jjkkll.ccwu.cc
   port: 443
   uuid: 49ef59c5-3491-4cba-824d-0fc76133f67c
+  security: tls
+  tls: true
+  sni: ''
+  skip-cert-verify: false
   network: ws
-  servername: jjkkll.ccwu.cc
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+  original_link: vless://49ef59c5-3491-4cba-824d-0fc76133f67c@jjkkll.ccwu.cc:443?encryption=none&security=tls&type=ws#美国+CloudFlare节点
+- name: vmess_fad81010
+  type: vmess
+  network: tcp
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+- name: vless_adf8f810
+  type: vless
+  server: ge-s-1.pythonmakemigreat.wiki
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  servername: ge-s-1.pythonmakemigreat.wiki
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
+  skip-cert-verify: true
+  udp: true
+- name: vless_ab709810
+  type: vless
+  server: 144.31.101.196
+  port: 33891
+  uuid: 1c794e75-bcd4-4a65-9f69-ed0a10f33d60
+  servername: browser.yandex.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: HXXIkFRPeRpluXJ7SOoUGf9EOq4Lw-oJpvg1W0UPbEw
+    short-id: 5bd7b68ca4c04443
+  skip-cert-verify: true
+  udp: true
+- name: vless_60609010
+  type: vless
+  server: 138.124.125.193
+  port: 10444
+  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
+  servername: ads.x5.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  skip-cert-verify: true
+  udp: true
+- name: vless_46b27410
+  type: vless
+  server: 31.59.217.164
+  port: 443
+  uuid: 4b09d40d-e36a-47c3-baa4-e6bf551b3183
+  servername: www.adobe.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kOkILS7UXUQDNPLYn4SQ65kMIWKXNOttV5Kddw4ZqTo
+    short-id: 1625a2a79d01328f
+  skip-cert-verify: true
+  udp: true
+- name: vless_adf86210
+  type: vless
+  server: 178.172.227.228
+  port: 10444
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  servername: ads.x5.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  skip-cert-verify: true
+  udp: true
+- name: vless_dcba5610
+  type: vless
+  server: 172.67.79.160
+  port: 2087
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  network: ws
+  servername: cvhpyn.pages.dev
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /anime/travel/settings/proxyip=103.170.233.213,151.241.5.88,45.95.212.117,154.31.113.22,103.53.80.24,45.63.124.130,150.230.212.247?ed=2560
+    path: /
     headers:
-      Host: jjkkll.ccwu.cc
+      Host: cvhpyn.pages.dev
   skip-cert-verify: true
   udp: true
-- name: vless_9ef06710
+- name: vless_3a58b410
   type: vless
-  server: fm3.pages.dev
-  port: 443
-  uuid: e5833a75-2095-48bb-8bb5-ce17291efd13
+  server: 188.164.248.123
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   network: ws
-  servername: fm3.pages.dev
+  servername: vp21.cc.cd
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: fm3.pages.dev
+      Host: vp21.cc.cd
   skip-cert-verify: true
   udp: true
-- name: http_23243110
+- name: vless_d1c08610
+  type: vless
+  server: 139.84.242.103
+  port: 443
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  network: ws
+  servername: vlso5.1d.mom
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /socks5=888:888@hkip.1d.mom:1080
+    headers:
+      Host: vlso5.1d.mom
+  skip-cert-verify: true
+  udp: true
+- name: vless_192ae410
+  type: vless
+  server: 138.124.70.41
+  port: 14430
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  network: ws
+  servername: 138.124.70.41
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 138.124.70.41
+  skip-cert-verify: true
+  udp: true
+- name: vless_65231810
+  type: vless
+  server: 203.202.232.110
+  port: 443
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  network: ws
+  servername: vlso5.1d.mom
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /socks5=888:888@hkip.1d.mom:1080
+    headers:
+      Host: vlso5.1d.mom
+  skip-cert-verify: true
+  udp: true
+- name: vless_01c85210
+  type: vless
+  server: 178.172.227.228
+  port: 14430
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  network: ws
+  servername: 178.172.227.228
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 178.172.227.228
+  skip-cert-verify: true
+  udp: true
+- name: socks5_192841010
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- name: http_54832010
   password: '1234'
   port: 2080
   server: 47.129.235.22
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: http_d261c1010
+- name: http_1ec20210
+  password: '1234'
+  port: 2080
+  server: 13.250.6.249
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_ef5da310
+  password: '1234'
+  port: 2080
+  server: 13.212.186.198
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_55af7010
+  password: '1234'
+  port: 2080
+  server: 13.229.91.101
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_7dbf2310
+  password: '1234'
+  port: 2080
+  server: 54.251.149.207
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_fa821010
+  password: '1234'
+  port: 2080
+  server: 47.129.155.166
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_662b3110
+  password: '1234'
+  port: 2080
+  server: 13.212.90.38
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_d8c2e510
+  password: '1234'
+  port: 2080
+  server: 47.129.174.248
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_6f82c610
+  password: '1234'
+  port: 2080
+  server: 13.212.207.226
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_cd734810
+  password: '1234'
+  port: 2080
+  server: 13.229.89.107
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_13a2a1010
+  password: '1234'
+  port: 2080
+  server: 13.212.144.250
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- alterId: 0
+  cipher: auto
+  name: vmess_b1de9910
+  network: none
+  port: 16836
+  server: 160.22.16.196
+  tls: false
+  type: vmess
+  uuid: 1e914b4e-e50a-47eb-cd07-36e971fa7f1b
+- name: http_f7a2e410
+  password: '1234'
+  port: 2080
+  server: 13.229.57.163
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: http_b79fe110
+  password: '1234'
+  port: 2080
+  server: 18.143.167.6
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_8bf66010
+  password: '1234'
+  port: 2080
+  server: 54.151.242.187
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_79e0a010
+  password: '1234'
+  port: 2080
+  server: 13.214.213.66
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_7c49f1010
+  password: '1234'
+  port: 2080
+  server: 54.255.129.221
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_ac56b410
+  password: '1234'
+  port: 2080
+  server: 13.212.190.30
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_a4a49910
+  password: '1234'
+  port: 2080
+  server: 13.212.87.168
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: http_39c11010
   password: '1234'
   port: 2080
   server: 47.129.200.52
@@ -1140,120 +1442,98 @@ proxies:
   type: http
   udp: true
   username: '1234'
-- name: http_e721e110
-  password: '1234'
-  port: 2080
-  server: 54.255.133.243
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_bbda9610
-  password: '1234'
-  port: 2080
-  server: 13.212.144.250
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_334d3610
-  password: '1234'
-  port: 2080
-  server: 47.129.155.166
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_072db510
-  password: '1234'
-  port: 2080
-  server: 13.212.90.38
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_9c1cd310
-  password: '1234'
-  port: 2080
-  server: 13.212.249.115
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_7f6c9210
-  password: '1234'
-  port: 2080
-  server: 54.151.242.187
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_d1c0b310
-  password: '1234'
-  port: 2080
-  server: 52.221.234.145
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_e8160310
-  password: '1234'
-  port: 2080
-  server: 13.212.235.123
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_636fc310
-  password: '1234'
-  port: 2080
-  server: 13.212.186.198
-  skip-cert-verify: true
-  type: http
-  username: '1234'
-- name: http_a4c98110
+- name: http_66742010
   password: '1234'
   port: 2080
   server: 13.212.14.88
   skip-cert-verify: true
   type: http
   username: '1234'
-- name: http_daafb910
+- name: http_b281f610
   password: '1234'
   port: 2080
-  server: 13.214.213.66
+  server: 13.212.235.123
   skip-cert-verify: true
   type: http
   username: '1234'
-- client-fingerprint: chrome
-  name: trojan_858f01010
-  network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
+- name: http_92d80810
+  password: '1234'
+  port: 2080
+  server: 13.250.6.200
   skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /api
-- name: http_5b9371010
-  port: 12121
-  server: 112.216.54.226
   type: http
-- name: socks5_7b31a810
-  password: '8888'
-  port: 1080
-  server: 47.236.168.243
+  udp: true
+  username: '1234'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: anytls_8226a310
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
   skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+- name: socks5_3b36c1010
+  password: null
+  port: 10808
+  server: 101.36.104.46
   type: socks5
-  username: '8888'
-- name: socks5_b8a911010
-  password: admin
-  port: 8899
-  server: 47.242.19.215
+  udp: true
+  username: null
+- alpn:
+  - h3
+  auth: 46647da9-d4b4-407f-bea6-ad0b1abc561f
+  name: hysteria2_57df7510
+  password: 46647da9-d4b4-407f-bea6-ad0b1abc561f
+  port: 2053
+  server: 192.236.226.182
   skip-cert-verify: true
-  type: socks5
-  username: admin
+  sni: 192.236.226.182
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: ss_b5e7b410
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.230.230.18
+  type: ss
+  udp: true
+- name: http_06658510
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_92090710
+  password: sni=\"goedkoopgeluid.icu\"
+  port: 443
+  server: goedkoopgeluid.icu
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+  username: None
+- name: http_f3351510
+  password: null
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_3b8ef210
+  password: None
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: vless_4928f410
+  name: vless_829f7310
   network: tcp
   port: 443
   reality-opts:
@@ -1266,10 +1546,161 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
+- name: http_93f51410
+  password: null
+  port: 443
+  server: 146.70.123.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_752d8210
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_efde4310
+  port: 443
+  server: 185.221.132.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_61696610
+  port: 443
+  server: 146.70.221.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: vmess_5813e010
+  network: none
+  port: 22998
+  server: 23.27.47.67
+  tls: false
+  type: vmess
+  uuid: 66345f5f-36c7-4aa8-b024-93c5a5989d6a
+- name: http_a02bc510
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_0a516010
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_f6e7f410
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_84997710
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_34e1d310
+  port: 443
+  server: 185.93.106.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_df6f5710
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_744771010
+  password: null
+  port: 9443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_5a6a5210
+  password: ''
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: http_5f072810
+  port: 8443
+  server: 35.84.133.236
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_8bfa4810
+  port: 443
+  server: 130.195.250.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_44cc4010
+  port: 443
+  server: 149.22.85.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: http_bb8a0610
+  password: None
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_d4f37210
+  password: 'null'
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: http_82998010
+  port: 7615
+  server: 47.90.206.169
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_06f4a110
+  port: 443
+  server: 146.70.176.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_43090310
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_d7d18910
+  port: 443
+  server: 116.202.172.99
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: vless_9b933010
+  name: vless_4ee16110
   network: tcp
   port: 443
   reality-opts:
@@ -1282,111 +1713,221 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
-- name: http_b3771010
-  port: 9443
-  server: 152.233.9.239
+- name: http_adbef510
+  port: 8443
+  server: 44.229.69.166
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_acd5a810
+- name: http_0bb27110
+  port: 443
+  server: 37.120.156.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_24e72410
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_81f8b610
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_52ff31010
+  port: 8080
+  server: 65.109.179.56
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_ad7b7410
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: http_a52ad1010
+  port: 9443
+  server: 185.165.170.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: socks5_d40091010
+  password: '111'
+  port: 11211
+  server: 47.243.173.50
+  skip-cert-verify: true
+  type: socks5
+  username: '111'
+- name: http_2e551010
   password: null
   port: 443
-  server: 149.36.50.1
+  server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: http_3f717310
+- name: http_d871c610
+  password: null
   port: 443
-  server: 79.127.156.177
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_e2827010
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_3ea3d910
-  port: 443
+  username: null
+- name: http_fb639010
+  port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_195e2410
-  password: null
+- name: http_941d0210
+  password: ''
+  port: 443
+  server: 185.221.132.226
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: http_f9670210
+  port: 443
+  server: 185.94.192.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_c4f58010
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_aaac7310
   port: 9443
-  server: 37.120.213.210
+  server: 31.171.154.66
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: http_3c599510
-  port: 443
-  server: 116.202.172.99
+- name: http_53cfe210
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_de233910
-  password: None
+- name: http_4c10d010
   port: 443
-  server: 157.22.183.72
-  skip-cert-verify: false
+  server: 149.22.88.65
+  skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: http_a6067910
+- name: http_f2e91610
   password: null
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_136ca210
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_279ff010
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_020d4910
+  password: null
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_2880d410
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_dc23e510
+  password: None
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
+- name: http_de813410
+  port: 443
+  server: 162.217.114.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_6f909610
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_bbcb2610
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_2548e610
+  password: ''
+  port: 9443
+  server: 31.171.155.210
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: http_33a5c010
+  password: null
+  port: 443
+  server: 185.245.84.50
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: null
-- name: http_218df710
+- name: http_42ecc610
   password: None
   port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: http_05a80610
-  password: null
-  port: 9002
-  server: 138.199.35.204
+  server: 109.248.147.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: http_8327e410
-  password: sni="goedkoopgeluid.icu"
-  port: 443
-  server: goedkoopgeluid.icu
+- name: http_6fcbc710
+  password: None
+  port: 9002
+  server: 193.176.84.22
   skip-cert-verify: true
-  sni: goedkoopgeluid.icu
   tls: true
   type: http
-  username: None
-- name: http_91e55710
-  port: 9090
-  server: 128.199.116.219
-  type: http
-- name: anytls_b718c810
-  password: ec74bb6a86c2
-  port: 443
-  server: 684616s4.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: vless_ce089410
+  username: null
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: vless_d5b5a710
   network: ws
   port: 443
-  server: 124.156.173.124
+  server: 31.77.126.2
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1395,220 +1936,114 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /fp=chrome
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
   xudp: true
-- name: socks5_de0a5310
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- name: anytls_e739a210
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  port: 24318
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: hk08.jdddyy01.cc
-  type: anytls
-  udp: true
-- name: http_0a934210
+- name: http_27d47210
   port: 443
-  server: 185.183.105.130
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_8afbb910
-  port: 9090
-  server: 104.248.151.93
+- name: http_24d55110
+  port: 8443
+  server: 188.120.225.125
+  skip-cert-verify: true
+  tls: true
   type: http
-- name: http_6e012410
+- name: http_e426b1010
+  port: 8443
+  server: 5.35.100.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_a5938810
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_89ec0010
+  port: 443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_0d487410
+  port: 443
+  server: 24.225.10.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_fe529810
+  port: 9443
+  server: 152.233.16.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_94bda810
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_5d871610
+  password: null
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: http_b2f66410
+  port: 8443
+  server: 198.105.124.180
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: http_60c641010
   port: 4443
   server: 83.172.143.53
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_383341010
-  port: 443
-  server: 185.221.132.242
+- name: http_7afbb010
+  port: 9443
+  server: 149.88.96.12
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_e6921710
-  port: 8443
-  server: 35.84.133.236
+- name: http_a551e010
+  port: 443
+  server: 206.223.183.21
   skip-cert-verify: true
   tls: true
   type: http
-- name: trojan_a07c8610
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: de4.dedushka.top
-  sni: de4.dedushka.top
-  type: trojan
-  udp: true
-- name: http_058e3510
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
+- name: http_a25e3510
+  port: 9443
+  server: 149.88.98.81
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: http_e8c31610
+- name: http_8b86c710
+  password: ''
   port: 443
-  server: 149.22.85.65
+  server: 149.88.21.129
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: http_f2dcb810
-  port: 9443
-  server: 152.233.3.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_b6c7f1010
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_2f67b010
-  port: 443
-  server: 141.94.16.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_40f74710
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_ef9b3710
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: vless_7d311410
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: SCQ-mhDUvmeQzJvctQYDDSha1R_rggGFkWK_9IRuvH4
-    short-id: aabbccdd
-  server: 72.56.241.230
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88b744bb-8ac7-484e-a376-136193452a2c
-  xudp: true
-- name: http_2917c510
-  port: 9443
-  server: 185.164.35.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_1762f410
-  password: None
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_415d4910
-  password: null
-  port: 443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_8acee710
-  password: None
-  port: 9443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: http_9db721010
-  password: null
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_665e0510
-  port: 443
-  server: 149.22.85.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_50f3d110
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_27189610
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_bfac4710
+  username: ''
+- name: http_cc6a41010
   password: None
   port: 443
-  server: 109.248.147.66
+  server: 149.22.86.1
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: http_20edb510
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_a1427410
-  port: 7615
-  server: 47.90.206.169
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_f36a5710
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_4f50b510
-  password: null
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_f099b610
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_be77e910
+- name: http_cf98a010
   password: ''
   port: 9443
   server: 95.153.32.2
@@ -1618,166 +2053,67 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: http_76ac11010
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_0fcec110
-  password: null
-  port: 443
-  server: 146.70.203.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_aa8ec910
-  password: None
+- name: http_3fec1610
   port: 9443
-  server: 87.249.132.97
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: http_988cc1010
-  port: 443
-  server: 91.92.250.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_fdb07510
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_e23ee510
-  port: 9443
-  server: 185.165.170.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_24968110
-  port: 9443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_492551010
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: socks5_51017910
-  port: 44499
-  server: 45.61.188.134
-  type: socks5
-- name: http_6e59f010
-  port: 443
-  server: 24.225.10.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_3b8c5910
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: vless_491ca110
-  network: ws
-  port: 2053
-  server: 185.112.249.201
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- name: http_d4f5d210
-  password: null
-  port: 443
-  server: 185.94.192.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_b46f8110
-  port: 443
-  server: 162.217.114.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_5b49d110
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_e6482210
+- name: http_2bfc1210
   port: 9443
   server: 169.150.199.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_79b7a810
+- name: http_b6242410
+  password: null
   port: 443
-  server: 213.177.229.161
+  server: 130.195.250.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_56943910
+  username: null
+- name: http_6d298610
   port: 443
-  server: 96.5.129.85
+  server: 142.44.210.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_9cffd410
-  port: 8443
-  server: 5.35.100.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_ddfc0510
+- name: http_7609a110
   port: 9443
-  server: 152.233.16.174
+  server: 23.169.224.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_3ca8d210
+- name: http_e8b6a410
+  password: null
   port: 443
-  server: 62.90.77.30
+  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_abed61010
-  port: 8080
-  server: 65.109.179.56
+  username: null
+- name: http_a3069510
+  port: 9443
+  server: 135.136.1.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_2dece010
+- name: http_fdf68310
+  password: None
   port: 443
-  server: 217.92.132.233
+  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_0fd0c510
-  port: 443
-  server: 185.232.70.11
+  username: null
+- name: http_2eedd410
+  port: 9443
+  server: 169.150.237.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_a9a08310
+- name: http_c82eb010
   password: e4b72b531a2d10900519
   port: 443
   server: 107.151.238.27
@@ -1785,161 +2121,41 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: http_03218810
-  port: 443
-  server: 146.70.176.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_0892c310
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_46ea5210
-  port: 999
-  server: 186.5.94.206
-  type: http
-- name: http_564fd710
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: vless_b26b11010
-  network: ws
-  port: 8443
-  server: 109.120.133.26
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- name: http_e2c3f710
+- name: http_54558610
   port: 9443
-  server: 135.136.1.2
+  server: 152.233.3.14
   skip-cert-verify: true
   tls: true
   type: http
-- name: http_3dd7a710
-  password: None
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_a3ddc310
+- name: http_84302110
   port: 443
-  server: 213.207.130.34
+  server: 96.5.129.85
   skip-cert-verify: true
   tls: true
   type: http
-- name: anytls_bbc74610
-  password: ec74bb6a86c2
-  port: 443
-  server: 56481.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: http_13b71210
-  password: null
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  tls: true
+- name: http_e21c6510
+  port: 9090
+  server: 128.199.116.219
   type: http
-  username: null
-- name: http_1145d910
-  password: null
-  port: 443
-  server: 103.62.50.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_218e6810
-  password: None
-  port: 443
-  server: 87.120.103.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: http_2d93a410
-  port: 443
-  server: 103.86.117.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_855c7610
-  port: 40002
-  server: 103.88.234.239
-  type: http
-- name: http_f7748510
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: http_57422610
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: vless_91510110
+- name: vmess_45895210
+  type: vmess
+  server: 168.113.215.6
+  port: 33736
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  alterId: 0
+  cipher: auto
   network: ws
-  port: 443
-  server: 104.64.59.9
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  tls: false
+  sni: ''
   ws-opts:
+    path: /vmess-ws
     headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- name: http_ce055310
-  password: 'null'
-  port: 443
-  server: fan.973511.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: http_826881010
-  port: 443
-  server: 161.129.60.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: ss_05153210
-  type: ss
-  server: 4.210.68.244
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: UUjphkQAh5BkOdbf
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVVWpwaGtRQWg1QmtPZGJm@4.210.68.244:443#🔥Join+Telegram:@Farah_VPN🟣
-- name: vless_3fa65710
+      Host: ''
+  original_link: vmess://eyJhZGQiOiAiMTY4LjExMy4yMTUuNiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLXdzIiwgInBjcyI6ICIiLCAicG9ydCI6ICIzMzczNiIsICJwcyI6ICJcdWQ4M2RcdWRkMjVKb2luK1RlbGVncmFtOkBGYXJhaF9WUE5cdWQ4M2RcdWRmZTMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJ2Y24iOiAiIn0=
+- name: vless_0937a210
   type: vless
   server: 172.67.155.65
-  port: 2053
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   security: tls
   tls: true
@@ -1947,28 +2163,13 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-  original_link: vless://e6df2095-a73c-4043-8693-8d5a03686870@172.67.155.65:2053?path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560&security=tls&encryption=none&insecure=0&host=lucasjow.us.ci&type=ws&allowInsecure=0&sni=lucasjow.us.ci#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_13070710
-  type: vmess
-  server: nomino.11hi8itbaf.workers.dev
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: nomino.11hi8itbaf.workers.dev
-  ws-opts:
-    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
-    headers:
-      Host: nomino.11hi8itbaf.workers.dev
-  original_link: vmess://eyJhZGQiOiAibm9taW5vLjExaGk4aXRiYWYud29ya2Vycy5kZXYiLCAiYWlkIjogMCwgImhvc3QiOiAibm9taW5vLjExaGk4aXRiYWYud29ya2Vycy5kZXYiLCAiaWQiOiAiNmE4OWEyMTUtMjJiZi00YmQ3LTk2NDItYjk1YjJlMDk1ODNhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9ndWFud2FuZy5hd3Nuby5jb20vaGxzL2NjdHY1cGhkLm0zdTgiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgInNuaSI6ICJub21pbm8uMTFoaThpdGJhZi53b3JrZXJzLmRldiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-- name: vless_28441110
+  original_link: vless://e6df2095-a73c-4043-8693-8d5a03686870@172.67.155.65:8443?path=/cart/docs/www/proxyip&security=tls&encryption=none&insecure=0&host=lucasjow.us.ci&ech=cloudflare-ech.com+udp://8.8.8.8&type=ws&allowInsecure=0&sni=lucasjow.us.ci#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_03acb1010
   type: vless
-  server: 31.77.126.2
+  server: 172.64.152.241
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   security: tls
@@ -1980,8 +2181,20 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-  original_link: vless://d342d11e-d224-4463-b982-532309285094@31.77.126.2:443?path=/fp=chrome&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_16a1d310
+  original_link: vless://d342d11e-d224-4463-b982-532309285094@172.64.152.241:443?path=/fp=chrome&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_13c67910
+  type: vless
+  server: 51.44.147.45
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.147.45:22224?encryption=none&security=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_db463710
   type: vmess
   server: cf.877771.xyz
   port: 443
@@ -1996,372 +2209,39 @@ proxies:
     headers:
       Host: vmess.lbw666.dpdns.org
   original_link: vmess://eyJhZGQiOiAiY2YuODc3NzcxLnh5eiIsICJhaWQiOiAwLCAiaG9zdCI6ICJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwgImlkIjogIjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3MiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgInNuaSI6ICJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
-- name: vmess_7f0e1710
-  type: vmess
-  server: lucas.ehsanazizi-speed-server.com
-  port: 2110
-  uuid: 06d4d001-4168-4876-9416-7caecf578f40
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  sni: ''
+- name: vless_7dac8710
+  type: vless
+  server: host.taghvimtime.ir
+  port: 8443
+  uuid: 90c08c98-7ec8-4fab-da36-cf140d18c708
+  security: tls
+  tls: true
+  sni: host.taghvimtime.ir
+  skip-cert-verify: false
+  network: xhttp
   ws-opts: {}
-  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJsdWNhcy5laHNhbmF6aXppLXNwZWVkLXNlcnZlci5jb20iLCAicG9ydCI6ICIyMTEwIiwgImlkIjogIjA2ZDRkMDAxLTQxNjgtNDg3Ni05NDE2LTdjYWVjZjU3OGY0MCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgInRscyI6ICIiLCAiYWxwbiI6ICIifQ==
-- name: vmess_7f2fb810
-  type: vmess
-  server: 146.56.112.110
-  port: 8888
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  sni: ''
-  ws-opts: {}
-  original_link: vmess://eyJhZGQiOiAiMTQ2LjU2LjExMi4xMTAiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImU3YzMwMmYzLTkwZDYtNDJkZC05ZDdkLTk0YTM2ODNhMzcwNyIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicGNzIjogIiIsICJwb3J0IjogIjg4ODgiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgInZjbiI6ICIifQ==
-- name: ss_8e14a610
+  original_link: vless://90c08c98-7ec8-4fab-da36-cf140d18c708@host.taghvimtime.ir:8443?mode=auto&path=/Meh?di=443&security=tls&alpn=h2&encryption=none&extra={"scMaxBufferedPosts":30,"scMaxEachPostBytes":"1000000","scStreamUpServerSecs":"20-80","xPaddingBytes":"100-1000","scMinPostsIntervalMs":"30","xmux":{"maxConcurrency":"16-32","maxConnections":0,"cMaxReuseTimes":0,"hMaxRequestTimes":"600-900","hMaxReusableSecs":"1800-3000","hKeepAlivePeriod":0}}&insecure=0&host=host.taghvimtime.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=host.taghvimtime.ir#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_d37dd1010
   type: ss
-  server: 82.38.31.157
+  server: 82.38.31.18
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.157:8080#🔥Join+Telegram:@Farah_VPN🟣
-- name: vless_f004b210
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.18:8080#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_cec8f310
   type: vless
-  server: 159.65.51.189
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  security: tls
-  tls: true
-  sni: ccc.010304.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  original_link: vless://d342d11e-d224-4463-b982-532309285094@159.65.51.189:443?&security=tls&fp=chrome&sni=ccc.010304.xyz&type=ws&headerType=none&host=ccc.010304.xyz&path=/#🔥Join+Telegram:@Farah_VPN🟣
-- name: vless_fe63d510
-  type: vless
-  server: 157.230.101.36
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  security: tls
-  tls: true
-  sni: ccc.010304.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  original_link: vless://d342d11e-d224-4463-b982-532309285094@157.230.101.36:443?path=/&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_72442510
-  type: vmess
-  server: cf.0sm.com
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: vmess.lbw666.dpdns.org
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJjZi4wc20uY29tIiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsICJwYXRoIjogIi93cz9lZD0yMDQ4IiwgInRscyI6ICJ0bHMiLCAic25pIjogInZtZXNzLmxidzY2Ni5kcGRucy5vcmciLCAiZnAiOiAiY2hyb21lIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlfQ==
-- name: vmess_18540610
-  type: vmess
-  server: us16-4.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: server1.9966338.xyz
-  ws-opts:
-    path: /efrsdioy98wert
-    headers:
-      Host: server1.9966338.xyz
-  original_link: vmess://eyJhZGQiOiAidXMxNi00Ljk5ODk5OC5iZXN0IiwgImFpZCI6ICIwIiwgImhvc3QiOiAic2VydmVyMS45OTY2MzM4Lnh5eiIsICJpZCI6ICI1NTA0ZWFhOC0xMzk1LTQwMmYtOGUwZS03NWVjZDc2MmU2MjciLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2VmcnNkaW95OTh3ZXJ0IiwgInBvcnQiOiAiNDQzIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiBmYWxzZSwgInNuaSI6ICJzZXJ2ZXIxLjk5NjYzMzgueHl6IiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInYiOiAiMiIsICJzY3kiOiAiYXV0byIsICJhbHBuIjogIiIsICJmcCI6ICIifQ==
-- name: vless_2bdf7810
-  type: vless
-  server: 172.67.65.56
-  port: 2053
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  security: tls
-  tls: true
-  sni: whitecreeper.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /proxyip
-    headers:
-      Host: whitecreeper.pages.dev
-  original_link: vless://099244b9-2168-4dbd-870e-cbbe9d6eb573@172.67.65.56:2053?path=/proxyip&security=tls&encryption=none&insecure=0&host=whitecreeper.pages.dev&fp=chrome&type=ws&allowInsecure=0&sni=whitecreeper.pages.dev#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_c0a49610
-  type: vmess
-  server: Rib9JXAYoqjGN2KW.v.3dns.vip
-  port: 443
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: Rib9JXAYoqjGN2KW.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
-  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAiaG9zdCI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
-- name: vless_89718910
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  security: tls
-  tls: true
-  sni: ccc.010304.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  original_link: vless://d342d11e-d224-4463-b982-532309285094@172.64.158.170:443?path=/&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_69fbb610
-  type: vmess
-  server: 168.113.215.6
-  port: 33736
-  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  sni: ''
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: ''
-  original_link: vmess://eyJhZGQiOiAiMTY4LjExMy4yMTUuNiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTI4MWFjY2EtZjIxZC00NzVjLWJmMDQtZWNjYmVlN2Y4ZGYyIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcy13cyIsICJwb3J0IjogIjMzNzM2IiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-- name: vmess_1b277310
-  type: vmess
-  server: 47.244.120.197
-  port: 44867
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  sni: 47.244.120.197
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-  original_link: vmess://eyJhZGQiOiAiNDcuMjQ0LjEyMC4xOTciLCAiYWlkIjogMCwgImhvc3QiOiAiNDcuMjQ0LjEyMC4xOTciLCAiaWQiOiAiODQ1ZTZiMDgtMjkxOS00MjkwLWFkZTAtNWRjN2RjZWE1OWNhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpIiwgInBvcnQiOiAiNDQ4NjciLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgInNuaSI6ICI0Ny4yNDQuMTIwLjE5NyIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-- name: vless_4a4c4410
-  type: vless
-  server: 185.86.145.128
-  port: 8443
-  uuid: 4c44b85a-71f8-41d8-b6bc-01d4c2f08dd0
-  security: reality
-  tls: false
-  sni: cinderrack.app
-  skip-cert-verify: false
-  network: tcp
-  ws-opts: {}
-  original_link: vless://4c44b85a-71f8-41d8-b6bc-01d4c2f08dd0@185.86.145.128:8443?security=reality&encryption=none&pbk=NEaLMYvat0TO8YX1FuR1yt11UT5iUQmrUNRpSTvT0xA&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=cinderrack.app&sid=a0d140fa25f56be2#🔥Join+Telegram:@Farah_VPN🟣
-- name: trojan_68b05110
-  type: trojan
-  server: de8.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: de8.dedushka.top
-  skip-cert-verify: false
-  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de8.dedushka.top:443?security=tls&alpn=http/1.1&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=de8.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
-- name: ss_16b53110
-  type: ss
-  server: 193.29.139.234
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#🔥Join+Telegram:@Farah_VPN🟣
-- name: trojan_f068a010
-  type: trojan
-  server: pl2.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: pl2.dedushka.top
-  skip-cert-verify: false
-  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl2.dedushka.top:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=pl2.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_0c532310
-  type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  sni: null
-  ws-opts:
-    path: /arki
-    headers:
-      Host: ''
-  original_link: vmess://eyJ2IjogbnVsbCwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJhZGQiOiAiNDcuMjQ0LjEyMC4xOTciLCAicG9ydCI6IDM2NzAzLCAiaWQiOiAiNDViODM1MTktOWM0Zi00MDUyLWExMWItMDJlMDE3YjYzNmQ0IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiIiwgImFscG4iOiBudWxsLCAicGF0aCI6ICIvYXJraSIsICJ0bHMiOiAibm9uZSIsICJzbmkiOiBudWxsLCAiZnAiOiBudWxsLCAibmFtZSI6ICJISyBcdWQ4M2NcdWRkZWRcdWQ4M2NcdWRkZjAgfCBAUmF5ZGlrYWx4IHwgQUNDMkMzIn0=
-- name: trojan_244dc710
-  type: trojan
-  server: de6.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: de6.dedushka.top
-  skip-cert-verify: false
-  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de6.dedushka.top:443?security=tls&sni=de6.dedushka.top&alpn=http/1.1&fp=chrome#🔥Join+Telegram:@Farah_VPN🟣
-- name: ss_720a7310
-  type: ss
-  server: 82.38.31.178
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.178:8080#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_119b1510
-  type: vmess
-  server: rib9jxayoqjgn2kw.v.3dns.vip
-  port: 443
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  sni: Rib9JXAYoqjGN2KW.v.3dns.vip
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
-  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAiaG9zdCI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAifQ==
-- name: vless_58b2a610
-  type: vless
-  server: 45.138.100.248
-  port: 14430
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  server: 51.44.147.45
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   security: none
   tls: false
   sni: ''
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.138.100.248
-  original_link: vless://ae908ff5-f749-402c-af25-e6e9aef4d6bb@45.138.100.248:14430?encryption=none&host=45.138.100.248&path=/vless&security=none&type=ws#🔥Join+Telegram:@Farah_VPN🟣
-- name: trojan_1d7f4710
-  type: trojan
-  server: 188.241.241.236
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: de10.dedushka.top
-  skip-cert-verify: false
-  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.236:443?security=tls&alpn=http/1.1&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=de10.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_9943b210
-  type: vmess
-  server: cf.0sm.com
-  port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  sni: ''
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJjZi4wc20uY29tIiwgInBvcnQiOiA4MCwgImlkIjogIjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAidm1lc3MubGJ3NjY2LmRwZG5zLm9yZyIsICJwYXRoIjogIi93cz9lZD0yMDQ4IiwgInRscyI6ICJub25lIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgIm5hbWUiOiAiQ0EgXHVkODNjXHVkZGU4XHVkODNjXHVkZGU2IHwgQFJheWRpa2FseCB8IEExQ0Q1OCJ9
-- name: ss_6c2461010
-  type: ss
-  server: 15.204.247.244
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  original_link: ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@15.204.247.244:4444#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_4b520410
-  type: vmess
-  server: 178.105.168.171
-  port: 2110
-  uuid: 06d4d001-4168-4876-9416-7caecf578f40
-  alterId: 0
-  cipher: auto
   network: tcp
-  tls: false
-  sni: ''
   ws-opts: {}
-  original_link: vmess://eyJhZGQiOiAiMTc4LjEwNS4xNjguMTcxIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICIwNmQ0ZDAwMS00MTY4LTQ4NzYtOTQxNi03Y2FlY2Y1NzhmNDAiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBjcyI6ICIiLCAicG9ydCI6ICIyMTEwIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIiwgInZjbiI6ICIifQ==
-- name: vless_dd7c6810
-  type: vless
-  server: www.5199dy.com
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  security: tls
-  tls: true
-  sni: ccc.010304.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: ccc.010304.xyz
-  original_link: vless://d342d11e-d224-4463-b982-532309285094@www.5199dy.com:443?path=/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
-- name: trojan_7dd86310
-  type: trojan
-  server: de2.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: de2.dedushka.top
-  skip-cert-verify: false
-  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de2.dedushka.top:443?security=tls&alpn=http/1.1&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=de2.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
-- name: vmess_12a5c410
-  type: vmess
-  server: 176.122.134.66
-  port: 26997
-  uuid: dff7cb2c-82b7-400b-b9a1-29b87fa96f26
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  sni: ''
-  ws-opts: {}
-  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICIxNzYuMTIyLjEzNC42NiIsICJwb3J0IjogMjY5OTcsICJpZCI6ICJkZmY3Y2IyYy04MmI3LTQwMGItYjlhMS0yOWI4N2ZhOTZmMjYiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvIiwgInRscyI6ICJub25lIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgIm5hbWUiOiAiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IHwgQFJheWRpa2FseCB8IDMwNTk4MyJ9
-- name: ss_8e221610
-  type: ss
-  server: 102.133.227.3
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 93F6FFBh3CZiBUsG
-  udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5M0Y2RkZCaDNDWmlCVXNH@102.133.227.3:443#🔥Join+Telegram:@Farah_VPN🟣
-- name: vless_e2787310
-  type: vless
-  server: medium.com
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  security: tls
-  tls: true
-  sni: rAyAn-007.mAxImA.DpDnS.OrG
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-  original_link: vless://f2a73750-3087-48ff-a763-1348c15dce68@medium.com:443?security=tls&sni=rAyAn-007.mAxImA.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/?ed=2560&host=rAyAn-007.mAxImA.DpDnS.OrG&encryption=none#🔥Join+Telegram:@Farah_VPN🟣
-- name: vless_628f6610
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.147.45:22223?encryption=none&security=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_52f15310
   type: vless
   server: one-for-all.levikogjgfdd.ir
   port: 2087
@@ -2376,15 +2256,605 @@ proxies:
     headers:
       Host: levikoconfig.levikogjgfdd.ir
   original_link: vless://50414e45-4c5f-5a45-5553-6f51879c0594@one-for-all.levikogjgfdd.ir:2087?encryption=none&type=ws&security=tls&path=/&host=levikoconfig.levikogjgfdd.ir&sni=levikoconfig.levikogjgfdd.ir&fp=chrome#🔥Join+Telegram:@Farah_VPN🟣
-- name: ss_e9526310
+- name: vmess_6999c1010
+  type: vmess
+  server: wjofhsqteueywxeq.v.3dns.vip
+  port: 443
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: wjofhsqteueywxeq.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+  original_link: vmess://eyJhZGQiOiAid2pvZmhzcXRldWV5d3hlcS52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICJhOWY0ZGU4Yi02OGYxLTQ0YjYtYjZhMi0xZGI2MDk0MDUwM2EiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzbmkiOiAid2pvZmhzcXRldWV5d3hlcS52LjNkbnMudmlwIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+- name: vless_fd3d5410
+  type: vless
+  server: 18.134.224.162
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.134.224.162:22223?security=none&encryption=none&headerType=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_d25e5110
+  type: vless
+  server: 172.64.150.43
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  security: none
+  tls: false
+  sni: 'hhlfy.twiladaphne.ndjp.net '
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  original_link: vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.64.150.43:8080?path=/sg-melbi&security=&encryption=none&host=hhlfy.twiladaphne.ndjp.net&type=ws&sni=hhlfy.twiladaphne.ndjp.net+#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_e3d6c1010
+  type: vmess
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  port: 443
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: ''
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+  original_link: vmess://eyJhZGQiOiAicmliOWp4YXlvcWpnbjJrdy52LjNkbnMudmlwIiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzLXZtZXNzIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+- name: ss_43132710
   type: ss
-  server: 82.38.31.18
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_f1166910
+  type: vless
+  server: 18.134.224.162
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.134.224.162:22222?security=&encryption=none&headerType=&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_d9736410
+  type: vless
+  server: 104.18.43.174
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  security: tls
+  tls: true
+  sni: lucasjow.us.ci
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--v2ray_configs_pools?ed
+    headers:
+      Host: lucasjow.us.ci
+  original_link: vless://e6df2095-a73c-4043-8693-8d5a03686870@104.18.43.174:443?path=/?TELEGRAM--v2ray_configs_pools?ed&security=tls&encryption=none&insecure=0&host=lucasjow.us.ci&fp=chrome&type=ws&allowInsecure=0&sni=lucasjow.us.ci#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_a126a510
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  tls: false
+  sni: ''
+  ws-opts: {}
+  original_link: vmess://eyJhZGQiOiAiMTEyLjEzMi4yMTUuMTA4IiwgImFpZCI6IDY0LCAiaG9zdCI6ICIiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6ICI1MDAwMiIsICJwcyI6ICJcdWQ4M2RcdWRkMjVKb2luK1RlbGVncmFtOkBGYXJhaF9WUE5cdWQ4M2RcdWRmZTMiLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+- name: vless_b2093310
+  type: vless
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
+  security: tls
+  tls: true
+  sni: hoert1rert.localip.ir
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+  original_link: vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@46.225.46.136:2087?path=/hokm&security=tls&alpn=http/1.1&encryption=none&host=hoert1rert.localip.ir&fp=chrome&type=ws&sni=hoert1rert.localip.ir#🔥Join+Telegram:@Farah_VPN🟣
+- name: trojan_20edf710
+  type: trojan
+  server: 188.241.241.122
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: de2.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@188.241.241.122:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de2.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_192ed910
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.63:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_7b69c610
+  type: ss
+  server: 172.105.39.124
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_19843710
+  type: ss
+  server: 193.151.160.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@193.151.160.9:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_6983e210
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ''
+  original_link: vless://f5c47e9c-914a-4a91-a81e-a5a77bc10fc1@ov-france1.09vpn.com:80?encryption=none&security=none&type=ws&path=/vless/#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_8ff1d710
+  type: vless
+  server: ov-germany1.09vpn.com
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+  original_link: vless://7d74eae4-8a06-4306-a923-ad686f30bf26@ov-germany1.09vpn.com:80?encryption=none&host=OV-Germany1.09vpn.com&path=/vless/&security=none&type=ws#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_1ed55010
+  type: vmess
+  server: us16-4.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: server1.9966338.xyz
+  ws-opts:
+    path: /efrsdioy98wert?ed=2560
+    headers:
+      Host: server1.9966338.xyz
+  original_link: vmess://eyJhZGQiOiAidXMxNi00Ljk5ODk5OC5iZXN0IiwgImFpZCI6IDAsICJob3N0IjogInNlcnZlcjEuOTk2NjMzOC54eXoiLCAiaWQiOiAiNTUwNGVhYTgtMTM5NS00MDJmLThlMGUtNzVlY2Q3NjJlNjI3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9lZnJzZGlveTk4d2VydD9lZD0yNTYwIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzY3kiOiAiYXV0byIsICJzZXJ2aWNlTmFtZSI6ICIiLCAic25pIjogInNlcnZlcjEuOTk2NjMzOC54eXoiLCAidGxzIjogInRscyIsICJ2IjogIjIifQ==
+- name: vmess_834e3810
+  type: vmess
+  server: cf.0sm.com
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  sni: ''
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJjZi4wc20uY29tIiwgInBvcnQiOiAiODAiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvd3MiLCAiaG9zdCI6ICJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwgInRscyI6ICIiLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWV9
+- name: ss_facc7010
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.18:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_d990c610
+  type: vless
+  server: 200.165.231.209
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  security: tls
+  tls: true
+  sni: wstg.datasynctrue.online
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+  original_link: vless://ff0b6ba8-bed0-4c4d-bbc9-23af47582615@200.165.231.209:443?path=/api/connect&security=tls&encryption=none&insecure=0&host=wstg.datasynctrue.online&type=ws&allowInsecure=0&sni=wstg.datasynctrue.online#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_66a93910
+  type: vless
+  server: 51.44.187.221
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.187.221:22224?encryption=none&security=none&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_264c5810
+  type: vless
+  server: 51.44.147.45
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.147.45:22222?encryption=none&security=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_6d23a510
+  type: ss
+  server: 95.215.201.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@95.215.201.18:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_42b9c310
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.81:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_6f20a1010
+  type: vless
+  server: botik.rafeaftabsokhtegi.com
+  port: 1153
+  uuid: 7cb80a1a-c8ce-4276-aa0e-3d6ae550bc2d
+  security: tls
+  tls: true
+  sni: botik.rafeaftabsokhtegi.com
+  skip-cert-verify: false
+  network: httpupgrade
+  ws-opts: {}
+  original_link: vless://7cb80a1a-c8ce-4276-aa0e-3d6ae550bc2d@botik.rafeaftabsokhtegi.com:1153?path=/assets&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=myket.ir&fp=chrome&type=httpupgrade&allowInsecure=0&sni=botik.rafeaftabsokhtegi.com#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_0853a410
+  type: vmess
+  server: 23.27.47.67
+  port: 26781
+  uuid: c8e76bdc-374f-48b0-dc49-1c6cd138ea06
+  alterId: 0
+  cipher: auto
+  network: none
+  tls: false
+  sni: ''
+  ws-opts: {}
+  original_link: vmess://eyJhZGQiOiAiMjMuMjcuNDcuNjciLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogImM4ZTc2YmRjLTM3NGYtNDhiMC1kYzQ5LTFjNmNkMTM4ZWEwNiIsICJuZXQiOiAibm9uZSIsICJwYXRoIjogIiIsICJwb3J0IjogIjI2NzgxIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+- name: vless_7dbf4610
+  type: vless
+  server: sino.bestsellers1.site
+  port: 2083
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  security: tls
+  tls: true
+  sni: sino.bestsellers1.site
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+  original_link: vless://7858128a-6b5e-4f86-9bff-52c1f1e6439d@sino.bestsellers1.site:2083?path=/&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=sino.bestsellers1.site#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_a044e910
+  type: ss
+  server: 104.46.14.31
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: dIuRNbl5mM2ac6d0
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkSXVSTmJsNW1NMmFjNmQw@104.46.14.31:443#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_77257310
+  type: vless
+  server: 51.158.206.97
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  security: reality
+  tls: false
+  sni: fuck.rkn
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&security=reality&sid=01&sni=fuck.rkn&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_e8362610
+  type: vmess
+  server: 167.233.242.189
+  port: 80
+  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  sni: ''
+  ws-opts: {}
+  original_link: vmess://eyJhZGQiOiAiMTY3LjIzMy4yNDIuMTg5IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogInd3dy5hcHBsZS5jb20iLCAiaWQiOiAiNzIwOWQ3ZWUtY2ZkMC00NmMwLWE1ODAtZDkyZTJmMGM4MDFjIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicGNzIjogIiIsICJwb3J0IjogIjgwIiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAiaHR0cCIsICJ2IjogIjIiLCAidmNuIjogIiJ9
+- name: vless_693fc210
+  type: vless
+  server: 104.20.45.141
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7e7818beb9aa
+  security: tls
+  tls: true
+  sni: razk50e1uvss.amirhoseyn-meshki.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/7e7818beb9aa
+    headers:
+      Host: razk50e1uvss.amirhoseyn-meshki.workers.dev
+  original_link: vless://50414e45-4c5f-5a45-5553-7e7818beb9aa@104.20.45.141:443?path=/stream/PANEL_ZEUS/7e7818beb9aa&security=tls&encryption=none&fm={"tcp":+[{"type":+"fragment",+"settings":+{"packets":+"tlshello",+"lengths":+["0",+"104",+"1"],+"delays":+["0"],+"maxSplit":+"0"}},{"type":+"fragment",+"settings":+{"packets":+"1-1",+"lengths":+["114",+"1"],+"delays":+["1"],+"maxSplit":+"11"}}]}&insecure=0&host=razk50e1uvss.amirhoseyn-meshki.workers.dev&fp=unsafe&ech=cloudflare-ech.com+udp://1.1.1.1&type=ws&allowInsecure=0&sni=razk50e1uvss.amirhoseyn-meshki.workers.dev#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_6b759010
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  udp: true
+  original_link: ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TnpKbE9UUTVOV1l0TTJaa1lpMDBDZz09@103.11.76.248:28679#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_2e52f210
+  type: vmess
+  server: cf.0sm.com
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: vmess.lbw666.dpdns.org
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  original_link: vmess://eyJhZGQiOiAiY2YuMHNtLmNvbSIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICJjaHJvbWUiLCAiaG9zdCI6ICJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwgImlkIjogIjBjZjZkOTcwLTNmMWQtNGFhZS1hOTg5LTkyYThmNzZhZTNkYiIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi93cz9lZD0yMDQ4IiwgInBjcyI6ICIiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJ2bWVzcy5sYnc2NjYuZHBkbnMub3JnIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICItLS0iLCAidiI6ICIyIiwgInZjbiI6ICIifQ==
+- name: ss_8e8ad410
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.99:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_e11dd010
+  type: ss
+  server: 104.46.14.31
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: jb1nb2FljOMJtUpg
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqYjFuYjJGbGpPTUp0VXBn@104.46.14.31:443#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_2fb9b710
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_5d70d210
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://ae908ff5-f749-402c-af25-e6e9aef4d6bb@45.138.100.248:10443?encryption=none&security=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_92c74810
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_ddcfa810
+  type: vmess
+  server: 104.21.57.84
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICIxMDQuMjEuNTcuODQiLCAicG9ydCI6ICI4NDQzIiwgImlkIjogIjYwNDQxNTQ4LWI2OGUtNDNiMi04MTkxLWUzYjg4NGJlNGIzYyIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAidGxzIjogInRscyIsICJhbHBuIjogIiIsICJzbmkiOiAidjJyYXkxLmRvemFwcC54eXoiLCAicGF0aCI6ICIvbE1uc1pVTjQvIiwgImhvc3QiOiAidjJyYXkxLmRvemFwcC54eXoifQ==
+- name: vless_cf0d8810
+  type: vless
+  server: 5.253.29.254
+  port: 10443
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://c7c27192-60a5-4ce1-b613-95270d82309d@5.253.29.254:10443?encryption=none&security=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_11df4410
+  type: vless
+  server: 91.210.169.181
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  security: tls
+  tls: true
+  sni: wstg.datasynctrue.online
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+  original_link: vless://ff0b6ba8-bed0-4c4d-bbc9-23af47582615@91.210.169.181:443?path=/api/connect&security=tls&encryption=none&insecure=0&host=wstg.datasynctrue.online&type=ws&allowInsecure=0&sni=wstg.datasynctrue.online#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_17b8f910
+  type: vless
+  server: 18.134.224.162
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.134.224.162:22224?encryption=none&security=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_2e266010
+  type: ss
+  server: 185.176.206.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.206.9:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_e00c61010
+  type: vless
+  server: ccs2g.pai50288.uk
+  port: 443
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  security: tls
+  tls: true
+  sni: ccs2g.pai50288.uk
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ''
+  original_link: vless://8be461cb-a0df-47cf-bc0d-4d9e6a22fa74@ccs2g.pai50288.uk:443?path=/pai50288&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=ccs2g.pai50288.uk#🔥Join+Telegram:@Farah_VPN🟣
+- name: trojan_3147f810
+  type: trojan
+  server: de10.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: de10.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@de10.dedushka.top:443?security=tls&alpn=http/1.1&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=de10.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
+- name: trojan_d17661010
+  type: trojan
+  server: pl1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: pl1.dedushka.top
+  skip-cert-verify: false
+  original_link: trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl1.dedushka.top:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=pl1.dedushka.top#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_59cb1210
+  type: vless
+  server: 159.65.51.189
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  security: tls
+  tls: true
+  sni: ccc.010304.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  original_link: vless://d342d11e-d224-4463-b982-532309285094@159.65.51.189:443?path=/&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_6bdeb210
+  type: ss
+  server: 82.38.31.54
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.18:8080#🔥Join+Telegram:@Farah_VPN🟣
-- name: vless_20820210
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.54:8080#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_18695110
+  type: vless
+  server: 51.44.187.221
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: tcp
+  ws-opts: {}
+  original_link: vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.187.221:22223?security=&encryption=none&headerType=&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+- name: trojan_d6e9e410
+  type: trojan
+  server: 78.17.171.106
+  port: 443
+  password: u93yPGuY2zgIsisJZKS2QzJzg
+  sni: 2.HI-L.IM
+  skip-cert-verify: false
+  original_link: trojan://u93yPGuY2zgIsisJZKS2QzJzg@78.17.171.106:443?path=/f2fc2a1f&security=tls&insecure=0&host=2.hi-l.im&type=ws&allowInsecure=0&sni=2.HI-L.IM#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_8f15c1010
+  type: ss
+  server: 104.46.14.31
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: Ku7fFxSguCfCFOhY
+  udp: true
+  original_link: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdTdmRnhTZ3VDZkNGT2hZ@104.46.14.31:443#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_c70dc810
+  type: vmess
+  server: 31.76.11.83
+  port: 22366
+  uuid: 632cfa69-ae00-49d1-81e0-554979d1e9fa
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  sni: ''
+  ws-opts: {}
+  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICIzMS43Ni4xMS44MyIsICJwb3J0IjogMjIzNjYsICJpZCI6ICI2MzJjZmE2OS1hZTAwLTQ5ZDEtODFlMC01NTQ5NzlkMWU5ZmEiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUifQ==
+- name: vmess_85358410
+  type: vmess
+  server: Rib9JXAYoqjGN2KW.v.3dns.vip
+  port: 443
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  sni: Rib9JXAYoqjGN2KW.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
+  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAiLCAicGF0aCI6ICIvd3Mtdm1lc3MiLCAiaG9zdCI6ICJSaWI5SlhBWW9xakdOMktXLnYuM2Rucy52aXAifQ==
+- name: vless_957c4310
   type: vless
   server: cf-vless-4cf55824.aimall.fr
   port: 443
@@ -2399,698 +2869,671 @@ proxies:
     headers:
       Host: cf-vless-4cf55824.aimall.fr
   original_link: vless://ea50b1a3-3a98-4c5e-a150-48ada40d68d7@cf-vless-4cf55824.aimall.fr:443?encryption=none&security=tls&sni=cf-vless-4cf55824.aimall.fr&fp=chrome&type=ws&host=cf-vless-4cf55824.aimall.fr&path=/connect#🔥Join+Telegram:@Farah_VPN🟣
-- name: ss_a7b5b410
+- name: ss_3d06a910
   type: ss
-  server: 103.11.76.248
-  port: 28679
-  cipher: 2022-blake3-aes-128-gcm
-  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  original_link: ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TnpKbE9UUTVOV1l0TTJaa1lpMDBDZz09@103.11.76.248:28679#🔥Join+Telegram:@Farah_VPN🟣
-- cipher: rc4-md5
-  name: ss_bf47e110
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.73
-  type: ss
-  udp: true
-  delay: 1413
-- cipher: rc4-md5
-  name: ss_7b722110
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.46.214
-  type: ss
-  udp: true
-  delay: 1032
-- name: vless_9867b310
-  type: vless
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  servername: sg2-8sb.6121999.dpdns.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  skip-cert-verify: false
-  udp: true
-- name: vless_b171f610
-  type: vless
-  server: tk1.high-speed-test-56424.me
-  port: 443
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  servername: aws.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  skip-cert-verify: false
-  udp: true
-- name: vless_bb93d510
-  type: vless
-  server: 172.67.79.160
-  port: 2087
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.45:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_b6d4b210
+  type: vmess
+  server: lucas.ehsanazizi-speed-server.com
+  port: 2110
+  uuid: 06d4d001-4168-4876-9416-7caecf578f40
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  sni: ''
+  ws-opts: {}
+  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICJsdWNhcy5laHNhbmF6aXppLXNwZWVkLXNlcnZlci5jb20iLCAicG9ydCI6ICIyMTEwIiwgImlkIjogIjA2ZDRkMDAxLTQxNjgtNDg3Ni05NDE2LTdjYWVjZjU3OGY0MCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgInRscyI6ICIiLCAiYWxwbiI6ICIifQ==
+- name: vmess_9ccea610
+  type: vmess
+  server: 217.60.183.95
+  port: 33744
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  alterId: 0
+  cipher: auto
   network: ws
-  servername: cvhpyn.pages.dev
+  tls: false
+  sni: ''
+  ws-opts:
+    path: /ShamanVMESS2026
+    headers:
+      Host: de-d21e56c13c.shamanapp.online:33744
+  original_link: vmess://eyJhZGQiOiAiMjE3LjYwLjE4My45NSIsICJhaWQiOiAiMCIsICJob3N0IjogImRlLWQyMWU1NmMxM2Muc2hhbWFuYXBwLm9ubGluZTozMzc0NCIsICJpZCI6ICJiM2ExMTA2OC0xYTdlLTQ2NDMtODVkZS03YzgyY2NlNDY5NDMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL1NoYW1hblZNRVNTMjAyNiIsICJwb3J0IjogIjMzNzQ0IiwgInBzIjogIlx1ZDgzZFx1ZGQyNUpvaW4rVGVsZWdyYW06QEZhcmFoX1ZQTlx1ZDgzZFx1ZGZlMyIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+- name: ss_07eb31010
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.54:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_80a38610
+  type: ss
+  server: 64.74.161.148
+  port: 17201
+  cipher: aes-128-gcm
+  password: 1cbb3e347ee86e1980a7c731e9dd00a0
+  udp: true
+  original_link: ss://YWVzLTEyOC1nY206MWNiYjNlMzQ3ZWU4NmUxOTgwYTdjNzMxZTlkZDAwYTA@64.74.161.148:17201#🔥Join+Telegram:@Farah_VPN🟣
+- name: ss_ac23e1010
+  type: ss
+  server: 185.215.132.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  original_link: ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.215.132.18:19999#🔥Join+Telegram:@Farah_VPN🟣
+- name: vmess_11a2a210
+  type: vmess
+  server: 178.105.168.171
+  port: 2110
+  uuid: 06d4d001-4168-4876-9416-7caecf578f40
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  sni: ''
+  ws-opts: {}
+  original_link: vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDI1Sm9pbitUZWxlZ3JhbTpARmFyYWhfVlBOXHVkODNkXHVkZmUzIiwgImFkZCI6ICIxNzguMTA1LjE2OC4xNzEiLCAicG9ydCI6ICIyMTEwIiwgImlkIjogIjA2ZDRkMDAxLTQxNjgtNDg3Ni05NDE2LTdjYWVjZjU3OGY0MCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgInRscyI6ICIiLCAiYWxwbiI6ICIifQ==
+- name: vless_27d9b210
+  type: vless
+  server: 157.230.101.36
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  security: tls
   tls: true
-  client-fingerprint: chrome
+  sni: ccc.010304.xyz
+  skip-cert-verify: false
+  network: ws
   ws-opts:
     path: /
     headers:
-      Host: cvhpyn.pages.dev
-  skip-cert-verify: false
-  udp: true
-- name: vless_662c4310
+      Host: ccc.010304.xyz
+  original_link: vless://d342d11e-d224-4463-b982-532309285094@157.230.101.36:443?path=/&security=tls&encryption=none&insecure=0&host=ccc.010304.xyz&fp=chrome&type=ws&allowInsecure=0&sni=ccc.010304.xyz#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_71800210
   type: vless
-  server: 109.172.54.135
-  port: 8444
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-  network: grpc
-  servername: github.com
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  security: tls
   tls: true
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: GunService
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  sni: rAyAn-007.mAxImA.DpDnS.OrG
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+  original_link: vless://f2a73750-3087-48ff-a763-1348c15dce68@medium.com:443?security=tls&sni=rAyAn-007.mAxImA.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/?ed=2560&host=rAyAn-007.mAxImA.DpDnS.OrG&encryption=none#🔥Join+Telegram:@Farah_VPN🟣
+- name: vless_98b4e910
+  type: vless
+  server: 104.18.35.86
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  security: none
+  tls: false
+  sni: hhlfy.twiladaphne.ndjp.net
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  original_link: vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@104.18.35.86:2082?sni=hhlfy.twiladaphne.ndjp.net&type=ws&host=hhlfy.twiladaphne.ndjp.net&path=/fp#🔥Join+Telegram:@Farah_VPN🟣
+- name: anytls_f01a7010
+  type: anytls
+  server: svip.skycon808.com
+  port: 60005
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
   skip-cert-verify: true
+  tls: true
   udp: true
-- name: http_94033110
+  client-fingerprint: chrome
+- name: socks5_873d2010
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+  udp: true
+- name: http_747c71010
   password: None
   port: 9090
   server: 104.248.151.93
   type: http
-- name: socks5_5eb1b810
+- name: socks5_8418d010
   port: 2080
   server: 8.215.25.3
   type: socks5
-- name: trojan_8c12c610
+- name: trojan_b18e5710
   type: trojan
-  server: outgoing-cockatoo.rooster465.autos
-  port: 443
-  password: WF42809561
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://WF42809561@outgoing-cockatoo.rooster465.autos:443#🇭🇺HU_53
-- name: trojan_23fca210
-  type: trojan
-  server: outgoing-ladybird.rooster465.autos
+  server: just-alpaca.rooster465.autos
   port: 443
   password: IL37892054
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://IL37892054@outgoing-ladybird.rooster465.autos:443#🇭🇺HU_54
-- name: trojan_56f78210
+  original_link: trojan://IL37892054@just-alpaca.rooster465.autos:443#🇭🇺HU_51
+- name: trojan_281ab110
   type: trojan
-  server: adjusted-labrador.rooster465.autos
+  server: game-firefly.rooster465.autos
+  port: 443
+  password: AE62539071
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://AE62539071@game-firefly.rooster465.autos:443#🇮🇳IN_56
+- name: trojan_aaf8e510
+  type: trojan
+  server: moral-buzzard.rooster465.autos
   port: 443
   password: ND91608427
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://ND91608427@adjusted-labrador.rooster465.autos:443#🇯🇵JP_58
-- name: trojan_d7186210
+  original_link: trojan://ND91608427@moral-buzzard.rooster465.autos:443#🇯🇵JP_61
+- name: trojan_a123f210
   type: trojan
-  server: glowing-deer.rooster465.autos
-  port: 443
-  password: ZY07256934
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://ZY07256934@glowing-deer.rooster465.autos:443#🇰🇷KR_63
-- name: trojan_802f0010
-  type: trojan
-  server: growing-tuna.rooster465.autos
-  port: 443
-  password: IL37892054
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://IL37892054@growing-tuna.rooster465.autos:443#🇷🇴RO_73
-- name: trojan_e4d6e410
-  type: trojan
-  server: pet-albacore.rooster465.autos
-  port: 443
-  password: WG39087154
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://WG39087154@pet-albacore.rooster465.autos:443#🇷🇺RU_75
-- name: trojan_949ed410
-  type: trojan
-  server: fair-reptile.rooster465.autos
-  port: 443
-  password: IQ68037294
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://IQ68037294@fair-reptile.rooster465.autos:443#🇸🇬SG_77
-- name: trojan_fb9b8910
-  type: trojan
-  server: helpful-possum.rooster465.autos
-  port: 443
-  password: FC60532879
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://FC60532879@helpful-possum.rooster465.autos:443#🇸🇬SG_78
-- name: trojan_eb38e610
-  type: trojan
-  server: endless-kiwi.rooster465.autos
-  port: 443
-  password: IQ68037294
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://IQ68037294@endless-kiwi.rooster465.autos:443#🇸🇬SG_79
-- name: trojan_737bc910
-  type: trojan
-  server: fun-salmon.rooster465.autos
-  port: 443
-  password: IQ68037294
-  sni: ''
-  skip-cert-verify: false
-  original_link: trojan://IQ68037294@fun-salmon.rooster465.autos:443#🇸🇬SG_81
-- name: trojan_baf44310
-  type: trojan
-  server: learning-leopard.rooster465.autos
+  server: ace-starling.rooster465.autos
   port: 443
   password: ND91608427
   sni: ''
   skip-cert-verify: false
-  original_link: trojan://ND91608427@learning-leopard.rooster465.autos:443#🇺🇸US_102
-- name: ss_2adae210
+  original_link: trojan://ND91608427@ace-starling.rooster465.autos:443#🇷🇴RO_80
+- name: trojan_cdc2c610
+  type: trojan
+  server: eager-louse.rooster465.autos
+  port: 443
+  password: IQ68037294
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://IQ68037294@eager-louse.rooster465.autos:443#🇷🇴RO_81
+- name: trojan_7a011310
+  type: trojan
+  server: game-firefly.rooster465.autos
+  port: 443
+  password: KV63147582
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://KV63147582@game-firefly.rooster465.autos:443#🇷🇴RO_82
+- name: trojan_f9269410
+  type: trojan
+  server: true-pony.rooster465.autos
+  port: 443
+  password: PD07395842
+  sni: ''
+  skip-cert-verify: false
+  original_link: trojan://PD07395842@true-pony.rooster465.autos:443#🇺🇦UA_95
+- name: ss_8bdbd910
   type: ss
   server: 57.131.48.45
   port: '8388'
   cipher: aes-256-gcm
   password: itzvpn@321
   udp: true
-- name: ss_d25c8610
+- name: ss_b6952810
   type: ss
   server: 94.156.250.148
   port: '7001'
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
   udp: true
-- name: ss_4d0f0810
+- name: ss_c5e36010
   type: ss
-  server: 82.38.31.193
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  server: 191.223.221.53
+  port: '8388'
+  cipher: aes-256-gcm
+  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
   udp: true
-- name: ss_ce774510
-  type: ss
-  server: 82.38.31.46
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_27b4c910
-  type: ss
-  server: 82.38.31.218
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_d2036810
-  type: ss
-  server: 82.38.31.202
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_0669f910
-  type: ss
-  server: 82.38.31.10
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_a11af1010
-  type: ss
-  server: 141.98.101.181
-  port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss_cb897710
-  type: ss
-  server: 82.38.31.155
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_d3d27110
-  type: ss
-  server: 82.38.31.217
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_0a704810
-  type: ss
-  server: 82.38.31.210
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_de888610
-  type: ss
-  server: 82.38.31.205
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_e9791910
-  type: ss
-  server: 82.38.31.208
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_7f5e0210
-  type: ss
-  server: 82.38.31.194
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_3bdb9710
-  type: ss
-  server: 82.38.31.219
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_a2b99510
-  type: ss
-  server: 82.38.31.216
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_22de7610
-  type: ss
-  server: 82.38.31.16
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_d89c0510
-  type: ss
-  server: 82.38.31.2
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_188a7510
-  type: ss
-  server: 82.38.31.191
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_b90fb210
-  type: ss
-  server: 82.38.31.149
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_34f51910
-  type: ss
-  server: 82.38.31.192
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_18adc610
-  type: ss
-  server: 82.38.31.34
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_68fdb710
-  type: ss
-  server: 82.38.31.49
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_def0f710
-  type: ss
-  server: 82.38.31.214
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_fe5ab610
-  type: ss
-  server: 82.38.31.48
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_c5d9f510
-  type: ss
-  server: 82.38.31.206
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_b939b210
-  type: ss
-  server: 82.38.31.3
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_a4f8c1010
-  type: ss
-  server: 82.38.31.47
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_fc0ee1010
-  type: ss
-  server: 82.38.31.174
-  port: '443'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_caf0c610
+- name: ss_f0d70810
   type: ss
   server: 82.38.31.179
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss_009b9010
-  type: ss
-  server: 82.38.31.162
-  port: '443'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_c87891010
-  type: ss
-  server: 82.38.31.180
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_8df2d210
+- name: ss_0f88e610
   type: ss
   server: 82.38.31.181
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss_5efb2010
+- name: ss_05a1d710
   type: ss
-  server: 82.38.31.212
+  server: 82.38.31.155
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_1a3f8210
+  type: ss
+  server: 82.38.31.199
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: ss_42625610
+- name: ss_0811e910
+  type: ss
+  server: 82.38.31.217
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_c40f5510
+  type: ss
+  server: 82.38.31.210
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_c672b910
+  type: ss
+  server: 82.38.31.205
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_bb9f0110
+  type: ss
+  server: 82.38.31.208
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_1eb2f110
+  type: ss
+  server: 82.38.31.194
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_6d154810
+  type: ss
+  server: 82.38.31.219
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_2cdf5310
+  type: ss
+  server: 82.38.31.216
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_87030410
+  type: ss
+  server: 82.38.31.16
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_e1d18910
+  type: ss
+  server: 82.38.31.186
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_aac741010
+  type: ss
+  server: 82.38.31.192
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_96d3c410
   type: ss
   server: 82.38.31.61
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss_2f838010
+- name: ss_cd149510
   type: ss
   server: 82.38.31.62
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss_26084110
-  type: ss
-  server: 82.38.31.203
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_ac279710
-  type: ss
-  server: 82.38.31.207
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_aa872010
-  type: ss
-  server: 82.38.31.42
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_9a188410
-  type: ss
-  server: 82.38.31.174
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_f8a58910
-  type: ss
-  server: 82.38.31.82
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_1baef610
+- name: ss_c0845010
   type: ss
   server: 82.38.31.66
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss_dbae1510
+- name: ss_29cb8610
   type: ss
-  server: 103.149.182.79
-  port: '8388'
-  cipher: chacha20-ietf
-  password: asd123456
+  server: 82.38.31.82
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss_12457110
+- name: ss_6e00f310
+  type: ss
+  server: 82.38.31.34
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_59903210
+  type: ss
+  server: 82.38.31.42
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_242a6010
+  type: ss
+  server: 82.38.31.207
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_caf6d410
+  type: ss
+  server: 82.38.31.193
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_3268a010
+  type: ss
+  server: 82.38.31.46
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_ea7f3410
+  type: ss
+  server: 141.98.101.181
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_3be1d310
+  type: ss
+  server: 82.38.31.218
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_eb329410
+  type: ss
+  server: 82.38.31.10
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_eee7f710
+  type: ss
+  server: 82.38.31.202
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: ss_c1acc810
+  type: ss
+  server: 82.38.31.174
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_f6871210
+  type: ss
+  server: 82.38.31.162
+  port: '443'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_b6b1a110
+  type: ss
+  server: 82.38.31.49
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: ss_dbf67510
   type: ss
   server: 211.178.105.134
   port: '6123'
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: ss_08520710
+- name: ss_0c14c710
   type: ss
-  server: 193.29.139.204
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: p141.panda001.net
+  port: '4652'
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
   udp: true
-- name: ss_0c43e110
-  type: ss
-  server: 193.29.139.147
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: ss_eb64f210
-  type: ss
-  server: 193.29.139.235
-  port: '8080'
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: ss_1348b710
+- name: ss_0b950910
   type: ss
   server: 193.29.139.168
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: ss_752c2410
+- name: ss_b6506910
   type: ss
   server: 193.29.139.151
   port: '8080'
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss_02224110
+- name: ss_ab939410
   type: ss
-  server: 84.247.155.196
-  port: '80'
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+  server: 193.29.139.204
+  port: '8080'
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: ss_9cac6810
-  type: ss
-  server: 84.247.155.196
-  port: '443'
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: ss_c2bd2110
+- name: ss_ef008610
   type: ss
   server: 8.209.74.72
   port: '20001'
   cipher: chacha20-ietf-poly1305
   password: PWpjPo3tqhPN4yRZ
   udp: true
-- name: ss_3d247610
-  type: ss
-  server: 37.19.198.244
-  port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss_239b9510
-  type: ss
-  server: 37.19.198.160
-  port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss_252ba210
+- name: ss_847401010
   type: ss
   server: 37.19.198.236
   port: '443'
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss_f6973310
+- name: ss_79eba710
   type: ss
-  server: 198.98.53.130
+  server: 37.19.198.243
   port: '443'
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: ss_8daee910
+- name: ss_d47bb210
+  type: ss
+  server: 37.19.198.160
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_195251010
+  type: ss
+  server: 37.19.198.244
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_3253c410
   type: ss
   server: 149.22.95.183
   port: '443'
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss_602f5910
-  type: ss
-  server: 149.22.87.241
-  port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss_73566910
-  type: ss
-  server: 173.244.56.6
-  port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss_7fbb61010
-  type: ss
-  server: 15.204.247.206
-  port: '4444'
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: ss_ff0ab410
-  type: ss
-  server: 137.184.174.93
-  port: '8080'
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: ss_0162b410
+- name: ss_30693110
   type: ss
   server: 149.22.87.204
   port: '443'
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss_7d1a3710
-  type: ss
-  server: 149.22.87.240
-  port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ss_b10381010
-  type: ss
-  server: 209.46.102.22
-  port: '8388'
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: ss_eb9e4010
+- name: ss_d4ac4710
   type: ss
   server: 156.146.38.167
   port: '443'
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss_09f2f1010
+- name: ss_3b600310
   type: ss
-  server: 156.146.38.170
+  server: 198.98.53.130
   port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
   udp: true
-- name: ss_211ff210
+- name: ss_ec85b1010
   type: ss
-  server: 173.244.56.9
+  server: 216.105.168.18
   port: '443'
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: chacha20-ietf-poly1305
+  password: hCCWOcIsK5wrFz4OX70rWf
   udp: true
-- name: ss_a153a610
+- name: ss_2e5c3810
   type: ss
   server: 156.146.38.168
   port: '443'
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: ss_e0b8e410
+- name: ss_9d3a6910
   type: ss
-  server: 102.133.165.160
-  port: '16233'
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  server: 149.22.87.240
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: ss_bab661010
+- name: ss_7091f510
+  type: ss
+  server: 149.22.87.241
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_26596710
+  type: ss
+  server: 173.244.56.9
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_eaf03210
+  type: ss
+  server: 156.146.38.170
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_7fb45610
+  type: ss
+  server: 173.244.56.6
+  port: '443'
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ss_c85a8510
   type: ss
   server: 102.37.156.224
   port: '443'
   cipher: chacha20-ietf-poly1305
   password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
-- name: vless_a13281010
+- name: ss_6b3dd110
+  type: ss
+  server: 102.133.165.160
+  port: '16233'
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
+- name: vless_1a82f210
   type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  server: 213.176.92.168
+  port: 14430
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+  security: none
+  tls: false
+  sni: 213.176.92.168
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 213.176.92.168
+  original_link: vless://ba52cc43-700d-4040-9444-29214c98e6e0@213.176.92.168:14430?encryption=none&security=none&sni=213.176.92.168&fp=chrome&type=ws&host=213.176.92.168&path=/vless#🇫🇮[openproxylist.com]
+    vless-FI
+- name: vless_c2b5e010
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  security: none
+  tls: false
+  sni: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.138.100.248
+  original_link: vless://ae908ff5-f749-402c-af25-e6e9aef4d6bb@45.138.100.248:14430?encryption=none&host=45.138.100.248&path=/vless&security=none&type=ws#🇺🇸[openproxylist.com]
+    vless-US
+- name: vless_36724510
+  type: vless
+  server: 185.253.116.33
+  port: 14430
+  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
+  security: none
+  tls: false
+  sni: 185.253.116.33
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 185.253.116.33
+  original_link: vless://aee7ae19-672f-49d8-8a92-aa7cdfc89f89@185.253.116.33:14430?sni=185.253.116.33&type=ws&host=185.253.116.33&path=/vless#🇦🇪[openproxylist.com]
+    vless-AE
+- name: vless_bd7c11010
+  type: vless
+  server: 14.137.238.156
+  port: 10000
+  uuid: d26598cf-2cdf-4219-80d0-94646dff160d
   security: none
   tls: false
   sni: ''
   skip-cert-verify: false
   network: tcp
   ws-opts: {}
-  original_link: vless://8e8210b7-71a4-4799-8b9b-2e69698b1eaf@site.teslamotor.site:20001?#🇵🇱[openproxylist.com]
-    vless-PL
-- name: ss_701b0510
-  type: ss
-  server: 37.148.203.124
-  port: 12238
-  cipher: aes-128-gcm
-  password: 6163d9d532e40f417dd8ebb5f9716495
-  udp: true
-  original_link: ss://YWVzLTEyOC1nY206NjE2M2Q5ZDUzMmU0MGY0MTdkZDhlYmI1Zjk3MTY0OTU@37.148.203.124:12238#🇳🇱[openproxylist.com]
-    ss-NL
-- name: vless_b32c3710
+  original_link: 'vless://d26598cf-2cdf-4219-80d0-94646dff160d@14.137.238.156:10000?encryption=none&security=none&type=tcp&headerType=none#Telgram:
+    @vpnbaz'
+- name: vless_4873d210
+  type: vless
+  server: wstg.datasynctrue.online
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  security: tls
+  tls: true
+  sni: ''
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+  original_link: 'vless://ff0b6ba8-bed0-4c4d-bbc9-23af47582615@wstg.datasynctrue.online:443?encryption=none&security=tls&insecure=0&allowInsecure=0&type=ws&host=wstg.datasynctrue.online&path=/api/connect#Telgram:
+    @vpnbaz'
+- name: vless_a2fc5510
   server: brazil.com
   port: 2083
   type: vless
@@ -3105,7 +3548,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: c7dabe95.proxy-978.pages.dev
-- name: vless_e5256610
+- name: vless_aab16010
   server: www.gov.ua
   port: 2096
   type: vless
@@ -3126,348 +3569,387 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - vless_bd67e510
-  - vless_ee2b1010
-  - vless_c9a791010
-  - vless_b490a610
-  - vless_bc046710
-  - trojan_b3014410
-  - vless_64e36610
-  - vless_1f8e3910
-  - vless_38490210
-  - vless_2ff94710
-  - vless_02484010
-  - vless_8599c610
-  - vless_cd900010
-  - vless_4e086510
-  - trojan_12df4110
-  - vless_372201010
-  - vless_5c6561010
-  - anytls_68fdb310
-  - trojan_b4c75710
-  - vless_8fd00810
-  - ss_612b9910
-  - ss_8802e110
-  - ss_af684910
-  - ss_6ede0310
-  - trojan_f9f56410
-  - trojan_5ea30510
-  - ss_85ca4810
-  - ss_ac67f610
-  - ss_8aea7110
-  - ss_48dff210
-  - ss_5f5131010
-  - ss_8282a210
-  - ss_f5476210
-  - ss_798ac010
-  - ss_86cf61010
-  - ss_8f682810
-  - ss_97fc7410
-  - trojan_6c60a410
-  - ss_6b98d910
-  - vmess_4f1d6610
-  - ss_4af05010
-  - ss_a6625910
-  - ss_63cea610
-  - ss_1cad4510
-  - ss_b135b710
-  - ss_9b3a1110
-  - ss_17070210
-  - ss_7460c010
-  - trojan_42a23810
-  - trojan_ab81f610
-  - trojan_d43e4410
-  - ss_92171110
-  - trojan_2e81f810
-  - trojan_ab674210
-  - trojan_70873410
-  - http_3eaee610
-  - ssr_0f506310
-  - http_be7401010
-  - http_3ecbb610
-  - http_fea62310
-  - http_98e24110
-  - ss_51037210
-  - trojan_1b770110
-  - vless_6eed9210
-  - hysteria2_b3fd9710
-  - hysteria2_3a55c610
-  - hysteria2_eb332710
-  - hysteria2_3679f910
-  - vless_3fcf9110
-  - vless_06f39410
-  - vless_af669910
-  - vless_f7829510
-  - vless_329e81010
-  - vless_15a91510
-  - vless_ec469610
-  - vless_da488710
-  - vless_b922f410
-  - anytls_a917c910
-  - anytls_ece7f1010
-  - vless_25f901010
-  - http_e16c41010
-  - http_b9d36610
-  - http_d94b1510
-  - vless_362bb1010
-  - vless_764ed810
-  - vless_189c7110
-  - vless_0d6d6910
-  - anytls_7e37f610
-  - vless_13ed9010
-  - vless_16030910
-  - vless_c886e410
-  - vless_36078710
-  - vless_67dca210
-  - vless_19832210
-  - vless_c7834110
-  - vless_b2b44310
-  - vless_ebc2b710
-  - vless_776f5710
-  - vless_4b366010
-  - vless_26ee5410
-  - vless_9ef06710
-  - http_23243110
-  - http_d261c1010
-  - http_e721e110
-  - http_bbda9610
-  - http_334d3610
-  - http_072db510
-  - http_9c1cd310
-  - http_7f6c9210
-  - http_d1c0b310
-  - http_e8160310
-  - http_636fc310
-  - http_a4c98110
-  - http_daafb910
-  - trojan_858f01010
-  - http_5b9371010
-  - socks5_7b31a810
-  - socks5_b8a911010
-  - vless_4928f410
-  - vless_9b933010
-  - http_b3771010
-  - http_acd5a810
-  - http_3f717310
-  - http_e2827010
-  - http_3ea3d910
-  - http_195e2410
-  - http_3c599510
-  - http_de233910
-  - http_a6067910
-  - http_218df710
-  - http_05a80610
-  - http_8327e410
-  - http_91e55710
-  - anytls_b718c810
-  - vless_ce089410
-  - socks5_de0a5310
-  - anytls_e739a210
-  - http_0a934210
-  - http_8afbb910
-  - http_6e012410
-  - http_383341010
-  - http_e6921710
-  - trojan_a07c8610
-  - http_058e3510
-  - http_e8c31610
-  - http_f2dcb810
-  - http_b6c7f1010
-  - http_2f67b010
-  - http_40f74710
-  - http_ef9b3710
-  - vless_7d311410
-  - http_2917c510
-  - http_1762f410
-  - http_415d4910
-  - http_8acee710
-  - http_9db721010
-  - http_665e0510
-  - http_50f3d110
-  - http_27189610
-  - http_bfac4710
-  - http_20edb510
-  - http_a1427410
-  - http_f36a5710
-  - http_4f50b510
-  - http_f099b610
-  - http_be77e910
-  - http_76ac11010
-  - http_0fcec110
-  - http_aa8ec910
-  - http_988cc1010
-  - http_fdb07510
-  - http_e23ee510
-  - http_24968110
-  - http_492551010
-  - socks5_51017910
-  - http_6e59f010
-  - http_3b8c5910
-  - vless_491ca110
-  - http_d4f5d210
-  - http_b46f8110
-  - http_5b49d110
-  - http_e6482210
-  - http_79b7a810
-  - http_56943910
-  - http_9cffd410
-  - http_ddfc0510
-  - http_3ca8d210
-  - http_abed61010
-  - http_2dece010
-  - http_0fd0c510
-  - http_a9a08310
-  - http_03218810
-  - http_0892c310
-  - http_46ea5210
-  - http_564fd710
-  - vless_b26b11010
-  - http_e2c3f710
-  - http_3dd7a710
-  - http_a3ddc310
-  - anytls_bbc74610
-  - http_13b71210
-  - http_1145d910
-  - http_218e6810
-  - http_2d93a410
-  - http_855c7610
-  - http_f7748510
-  - http_57422610
-  - vless_91510110
-  - http_ce055310
-  - http_826881010
-  - ss_05153210
-  - vless_3fa65710
-  - vmess_13070710
-  - vless_28441110
-  - vmess_16a1d310
-  - vmess_7f0e1710
-  - vmess_7f2fb810
-  - ss_8e14a610
-  - vless_f004b210
-  - vless_fe63d510
-  - vmess_72442510
-  - vmess_18540610
-  - vless_2bdf7810
-  - vmess_c0a49610
-  - vless_89718910
-  - vmess_69fbb610
-  - vmess_1b277310
-  - vless_4a4c4410
-  - trojan_68b05110
-  - ss_16b53110
-  - trojan_f068a010
-  - vmess_0c532310
-  - trojan_244dc710
-  - ss_720a7310
-  - vmess_119b1510
-  - vless_58b2a610
-  - trojan_1d7f4710
-  - vmess_9943b210
-  - ss_6c2461010
-  - vmess_4b520410
-  - vless_dd7c6810
-  - trojan_7dd86310
-  - vmess_12a5c410
-  - ss_8e221610
-  - vless_e2787310
-  - vless_628f6610
-  - ss_e9526310
-  - vless_20820210
-  - ss_a7b5b410
-  - ss_bf47e110
-  - ss_7b722110
-  - vless_9867b310
-  - vless_b171f610
-  - vless_bb93d510
-  - vless_662c4310
-  - http_94033110
-  - socks5_5eb1b810
-  - trojan_8c12c610
-  - trojan_23fca210
-  - trojan_56f78210
-  - trojan_d7186210
-  - trojan_802f0010
-  - trojan_e4d6e410
-  - trojan_949ed410
-  - trojan_fb9b8910
-  - trojan_eb38e610
-  - trojan_737bc910
-  - trojan_baf44310
-  - ss_2adae210
-  - ss_d25c8610
-  - ss_4d0f0810
-  - ss_ce774510
-  - ss_27b4c910
-  - ss_d2036810
-  - ss_0669f910
-  - ss_a11af1010
-  - ss_cb897710
-  - ss_d3d27110
-  - ss_0a704810
-  - ss_de888610
-  - ss_e9791910
-  - ss_7f5e0210
-  - ss_3bdb9710
-  - ss_a2b99510
-  - ss_22de7610
-  - ss_d89c0510
-  - ss_188a7510
-  - ss_b90fb210
-  - ss_34f51910
-  - ss_18adc610
-  - ss_68fdb710
-  - ss_def0f710
-  - ss_fe5ab610
-  - ss_c5d9f510
-  - ss_b939b210
-  - ss_a4f8c1010
-  - ss_fc0ee1010
-  - ss_caf0c610
-  - ss_009b9010
-  - ss_c87891010
-  - ss_8df2d210
-  - ss_5efb2010
-  - ss_42625610
-  - ss_2f838010
-  - ss_26084110
-  - ss_ac279710
-  - ss_aa872010
-  - ss_9a188410
-  - ss_f8a58910
-  - ss_1baef610
-  - ss_dbae1510
-  - ss_12457110
-  - ss_08520710
-  - ss_0c43e110
-  - ss_eb64f210
-  - ss_1348b710
-  - ss_752c2410
-  - ss_02224110
-  - ss_9cac6810
-  - ss_c2bd2110
-  - ss_3d247610
-  - ss_239b9510
-  - ss_252ba210
-  - ss_f6973310
-  - ss_8daee910
-  - ss_602f5910
-  - ss_73566910
-  - ss_7fbb61010
-  - ss_ff0ab410
-  - ss_0162b410
-  - ss_7d1a3710
-  - ss_b10381010
-  - ss_eb9e4010
-  - ss_09f2f1010
-  - ss_211ff210
-  - ss_a153a610
-  - ss_e0b8e410
-  - ss_bab661010
-  - vless_a13281010
-  - ss_701b0510
-  - vless_b32c3710
-  - vless_e5256610
+  - vless_3a8e8610
+  - vless_a65be1010
+  - vless_653b9310
+  - vless_b980b910
+  - vless_be9e31010
+  - trojan_6170d810
+  - vless_6a9bc1010
+  - vless_581b0910
+  - vless_87cc1210
+  - vless_664fa910
+  - vless_f859f310
+  - vless_c8258310
+  - vless_9eaa4510
+  - vless_69734410
+  - vless_b4af0810
+  - trojan_408c3610
+  - vless_a5c79810
+  - vless_b0f29110
+  - anytls_1e14d610
+  - trojan_f7114910
+  - vless_9ef53510
+  - ss_1cffc1010
+  - trojan_93898510
+  - ss_34242610
+  - vmess_ca731810
+  - ss_ab3e51010
+  - ss_13e19010
+  - ss_6bd93410
+  - ss_083b2510
+  - trojan_ebb9c1010
+  - ss_c1c88810
+  - ss_17e3e1010
+  - ss_9ec5a810
+  - trojan_69068910
+  - ss_3ec68810
+  - ss_f7992910
+  - vmess_3244f410
+  - ss_58d93510
+  - ss_c3aa8710
+  - ss_07a59210
+  - trojan_c7dca210
+  - trojan_a1f97310
+  - trojan_958b3910
+  - ss_cab67910
+  - trojan_fa45b810
+  - ss_4d2e01010
+  - ss_6cf66110
+  - trojan_27b70610
+  - ss_b0e04310
+  - ss_16105410
+  - ss_b2f90710
+  - ss_19465210
+  - ss_dad57310
+  - ss_1a73d310
+  - ss_ea443810
+  - trojan_0a640410
+  - trojan_8da88610
+  - trojan_64e9d410
+  - trojan_39f3a410
+  - trojan_d60d1010
+  - trojan_2e1a2710
+  - trojan_96580010
+  - trojan_9bba4010
+  - trojan_17305610
+  - trojan_93cc0810
+  - trojan_557ea310
+  - trojan_566861010
+  - trojan_96ae41010
+  - trojan_eb5a7810
+  - trojan_a5007910
+  - trojan_94287510
+  - trojan_62d9c710
+  - trojan_99686110
+  - trojan_6f9b6510
+  - trojan_cd019210
+  - trojan_57af8610
+  - ssr_a44f7210
+  - http_e3704910
+  - http_3e0da410
+  - http_7539b510
+  - ss_83a23210
+  - vless_24e01310
+  - hysteria2_abdad110
+  - vless_15bfc510
+  - vless_f33b8910
+  - vless_b5285510
+  - vless_a2083610
+  - vless_5f99b410
+  - vless_2e749110
+  - vless_edae6610
+  - http_0baef210
+  - http_5e6cc910
+  - http_30f61310
+  - http_1c09d910
+  - http_0f1f8210
+  - http_c15dd510
+  - vless_1998c310
+  - vless_4d11d210
+  - trojan_7eead010
+  - vless_d764a910
+  - vless_64da0410
+  - vless_b38541010
+  - vless_6b45d210
+  - vless_a5753710
+  - trojan_fa1fa310
+  - vless_00d3e210
+  - vmess_fad81010
+  - vless_adf8f810
+  - vless_ab709810
+  - vless_60609010
+  - vless_46b27410
+  - vless_adf86210
+  - vless_dcba5610
+  - vless_3a58b410
+  - vless_d1c08610
+  - vless_192ae410
+  - vless_65231810
+  - vless_01c85210
+  - socks5_192841010
+  - http_54832010
+  - http_1ec20210
+  - http_ef5da310
+  - http_55af7010
+  - http_7dbf2310
+  - http_fa821010
+  - http_662b3110
+  - http_d8c2e510
+  - http_6f82c610
+  - http_cd734810
+  - http_13a2a1010
+  - vmess_b1de9910
+  - http_f7a2e410
+  - http_b79fe110
+  - http_8bf66010
+  - http_79e0a010
+  - http_7c49f1010
+  - http_ac56b410
+  - http_a4a49910
+  - http_39c11010
+  - http_66742010
+  - http_b281f610
+  - http_92d80810
+  - anytls_8226a310
+  - socks5_3b36c1010
+  - hysteria2_57df7510
+  - ss_b5e7b410
+  - http_06658510
+  - http_92090710
+  - http_f3351510
+  - http_3b8ef210
+  - vless_829f7310
+  - http_93f51410
+  - http_752d8210
+  - http_efde4310
+  - http_61696610
+  - vmess_5813e010
+  - http_a02bc510
+  - http_0a516010
+  - http_f6e7f410
+  - http_84997710
+  - http_34e1d310
+  - http_df6f5710
+  - http_744771010
+  - http_5a6a5210
+  - http_5f072810
+  - http_8bfa4810
+  - http_44cc4010
+  - http_bb8a0610
+  - http_d4f37210
+  - http_82998010
+  - http_06f4a110
+  - http_43090310
+  - http_d7d18910
+  - vless_4ee16110
+  - http_adbef510
+  - http_0bb27110
+  - http_24e72410
+  - http_81f8b610
+  - http_52ff31010
+  - http_ad7b7410
+  - http_a52ad1010
+  - socks5_d40091010
+  - http_2e551010
+  - http_d871c610
+  - http_fb639010
+  - http_941d0210
+  - http_f9670210
+  - http_c4f58010
+  - http_aaac7310
+  - http_53cfe210
+  - http_4c10d010
+  - http_f2e91610
+  - http_136ca210
+  - http_279ff010
+  - http_020d4910
+  - http_2880d410
+  - http_dc23e510
+  - http_de813410
+  - http_6f909610
+  - http_bbcb2610
+  - http_2548e610
+  - http_33a5c010
+  - http_42ecc610
+  - http_6fcbc710
+  - vless_d5b5a710
+  - http_27d47210
+  - http_24d55110
+  - http_e426b1010
+  - http_a5938810
+  - http_89ec0010
+  - http_0d487410
+  - http_fe529810
+  - http_94bda810
+  - http_5d871610
+  - http_b2f66410
+  - http_60c641010
+  - http_7afbb010
+  - http_a551e010
+  - http_a25e3510
+  - http_8b86c710
+  - http_cc6a41010
+  - http_cf98a010
+  - http_3fec1610
+  - http_2bfc1210
+  - http_b6242410
+  - http_6d298610
+  - http_7609a110
+  - http_e8b6a410
+  - http_a3069510
+  - http_fdf68310
+  - http_2eedd410
+  - http_c82eb010
+  - http_54558610
+  - http_84302110
+  - http_e21c6510
+  - vmess_45895210
+  - vless_0937a210
+  - vless_03acb1010
+  - vless_13c67910
+  - vmess_db463710
+  - vless_7dac8710
+  - ss_d37dd1010
+  - vless_cec8f310
+  - vless_52f15310
+  - vmess_6999c1010
+  - vless_fd3d5410
+  - vless_d25e5110
+  - vmess_e3d6c1010
+  - ss_43132710
+  - vless_f1166910
+  - vless_d9736410
+  - vmess_a126a510
+  - vless_b2093310
+  - trojan_20edf710
+  - ss_192ed910
+  - ss_7b69c610
+  - ss_19843710
+  - vless_6983e210
+  - vless_8ff1d710
+  - vmess_1ed55010
+  - vmess_834e3810
+  - ss_facc7010
+  - vless_d990c610
+  - vless_66a93910
+  - vless_264c5810
+  - ss_6d23a510
+  - ss_42b9c310
+  - vless_6f20a1010
+  - vmess_0853a410
+  - vless_7dbf4610
+  - ss_a044e910
+  - vless_77257310
+  - vmess_e8362610
+  - vless_693fc210
+  - ss_6b759010
+  - vmess_2e52f210
+  - ss_8e8ad410
+  - ss_e11dd010
+  - ss_2fb9b710
+  - vless_5d70d210
+  - ss_92c74810
+  - vmess_ddcfa810
+  - vless_cf0d8810
+  - vless_11df4410
+  - vless_17b8f910
+  - ss_2e266010
+  - vless_e00c61010
+  - trojan_3147f810
+  - trojan_d17661010
+  - vless_59cb1210
+  - ss_6bdeb210
+  - vless_18695110
+  - trojan_d6e9e410
+  - ss_8f15c1010
+  - vmess_c70dc810
+  - vmess_85358410
+  - vless_957c4310
+  - ss_3d06a910
+  - vmess_b6d4b210
+  - vmess_9ccea610
+  - ss_07eb31010
+  - ss_80a38610
+  - ss_ac23e1010
+  - vmess_11a2a210
+  - vless_27d9b210
+  - vless_71800210
+  - vless_98b4e910
+  - anytls_f01a7010
+  - socks5_873d2010
+  - http_747c71010
+  - socks5_8418d010
+  - trojan_b18e5710
+  - trojan_281ab110
+  - trojan_aaf8e510
+  - trojan_a123f210
+  - trojan_cdc2c610
+  - trojan_7a011310
+  - trojan_f9269410
+  - ss_8bdbd910
+  - ss_b6952810
+  - ss_c5e36010
+  - ss_f0d70810
+  - ss_0f88e610
+  - ss_05a1d710
+  - ss_1a3f8210
+  - ss_0811e910
+  - ss_c40f5510
+  - ss_c672b910
+  - ss_bb9f0110
+  - ss_1eb2f110
+  - ss_6d154810
+  - ss_2cdf5310
+  - ss_87030410
+  - ss_e1d18910
+  - ss_aac741010
+  - ss_96d3c410
+  - ss_cd149510
+  - ss_c0845010
+  - ss_29cb8610
+  - ss_6e00f310
+  - ss_59903210
+  - ss_242a6010
+  - ss_caf6d410
+  - ss_3268a010
+  - ss_ea7f3410
+  - ss_3be1d310
+  - ss_eb329410
+  - ss_eee7f710
+  - ss_c1acc810
+  - ss_f6871210
+  - ss_b6b1a110
+  - ss_dbf67510
+  - ss_0c14c710
+  - ss_0b950910
+  - ss_b6506910
+  - ss_ab939410
+  - ss_ef008610
+  - ss_847401010
+  - ss_79eba710
+  - ss_d47bb210
+  - ss_195251010
+  - ss_3253c410
+  - ss_30693110
+  - ss_d4ac4710
+  - ss_3b600310
+  - ss_ec85b1010
+  - ss_2e5c3810
+  - ss_9d3a6910
+  - ss_7091f510
+  - ss_26596710
+  - ss_eaf03210
+  - ss_7fb45610
+  - ss_c85a8510
+  - ss_6b3dd110
+  - vless_1a82f210
+  - vless_c2b5e010
+  - vless_36724510
+  - vless_bd7c11010
+  - vless_4873d210
+  - vless_a2fc5510
+  - vless_aab16010
 - name: 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -3475,348 +3957,387 @@ proxy-groups:
   tolerance: 50
   proxies:
   - Template
-  - vless_bd67e510
-  - vless_ee2b1010
-  - vless_c9a791010
-  - vless_b490a610
-  - vless_bc046710
-  - trojan_b3014410
-  - vless_64e36610
-  - vless_1f8e3910
-  - vless_38490210
-  - vless_2ff94710
-  - vless_02484010
-  - vless_8599c610
-  - vless_cd900010
-  - vless_4e086510
-  - trojan_12df4110
-  - vless_372201010
-  - vless_5c6561010
-  - anytls_68fdb310
-  - trojan_b4c75710
-  - vless_8fd00810
-  - ss_612b9910
-  - ss_8802e110
-  - ss_af684910
-  - ss_6ede0310
-  - trojan_f9f56410
-  - trojan_5ea30510
-  - ss_85ca4810
-  - ss_ac67f610
-  - ss_8aea7110
-  - ss_48dff210
-  - ss_5f5131010
-  - ss_8282a210
-  - ss_f5476210
-  - ss_798ac010
-  - ss_86cf61010
-  - ss_8f682810
-  - ss_97fc7410
-  - trojan_6c60a410
-  - ss_6b98d910
-  - vmess_4f1d6610
-  - ss_4af05010
-  - ss_a6625910
-  - ss_63cea610
-  - ss_1cad4510
-  - ss_b135b710
-  - ss_9b3a1110
-  - ss_17070210
-  - ss_7460c010
-  - trojan_42a23810
-  - trojan_ab81f610
-  - trojan_d43e4410
-  - ss_92171110
-  - trojan_2e81f810
-  - trojan_ab674210
-  - trojan_70873410
-  - http_3eaee610
-  - ssr_0f506310
-  - http_be7401010
-  - http_3ecbb610
-  - http_fea62310
-  - http_98e24110
-  - ss_51037210
-  - trojan_1b770110
-  - vless_6eed9210
-  - hysteria2_b3fd9710
-  - hysteria2_3a55c610
-  - hysteria2_eb332710
-  - hysteria2_3679f910
-  - vless_3fcf9110
-  - vless_06f39410
-  - vless_af669910
-  - vless_f7829510
-  - vless_329e81010
-  - vless_15a91510
-  - vless_ec469610
-  - vless_da488710
-  - vless_b922f410
-  - anytls_a917c910
-  - anytls_ece7f1010
-  - vless_25f901010
-  - http_e16c41010
-  - http_b9d36610
-  - http_d94b1510
-  - vless_362bb1010
-  - vless_764ed810
-  - vless_189c7110
-  - vless_0d6d6910
-  - anytls_7e37f610
-  - vless_13ed9010
-  - vless_16030910
-  - vless_c886e410
-  - vless_36078710
-  - vless_67dca210
-  - vless_19832210
-  - vless_c7834110
-  - vless_b2b44310
-  - vless_ebc2b710
-  - vless_776f5710
-  - vless_4b366010
-  - vless_26ee5410
-  - vless_9ef06710
-  - http_23243110
-  - http_d261c1010
-  - http_e721e110
-  - http_bbda9610
-  - http_334d3610
-  - http_072db510
-  - http_9c1cd310
-  - http_7f6c9210
-  - http_d1c0b310
-  - http_e8160310
-  - http_636fc310
-  - http_a4c98110
-  - http_daafb910
-  - trojan_858f01010
-  - http_5b9371010
-  - socks5_7b31a810
-  - socks5_b8a911010
-  - vless_4928f410
-  - vless_9b933010
-  - http_b3771010
-  - http_acd5a810
-  - http_3f717310
-  - http_e2827010
-  - http_3ea3d910
-  - http_195e2410
-  - http_3c599510
-  - http_de233910
-  - http_a6067910
-  - http_218df710
-  - http_05a80610
-  - http_8327e410
-  - http_91e55710
-  - anytls_b718c810
-  - vless_ce089410
-  - socks5_de0a5310
-  - anytls_e739a210
-  - http_0a934210
-  - http_8afbb910
-  - http_6e012410
-  - http_383341010
-  - http_e6921710
-  - trojan_a07c8610
-  - http_058e3510
-  - http_e8c31610
-  - http_f2dcb810
-  - http_b6c7f1010
-  - http_2f67b010
-  - http_40f74710
-  - http_ef9b3710
-  - vless_7d311410
-  - http_2917c510
-  - http_1762f410
-  - http_415d4910
-  - http_8acee710
-  - http_9db721010
-  - http_665e0510
-  - http_50f3d110
-  - http_27189610
-  - http_bfac4710
-  - http_20edb510
-  - http_a1427410
-  - http_f36a5710
-  - http_4f50b510
-  - http_f099b610
-  - http_be77e910
-  - http_76ac11010
-  - http_0fcec110
-  - http_aa8ec910
-  - http_988cc1010
-  - http_fdb07510
-  - http_e23ee510
-  - http_24968110
-  - http_492551010
-  - socks5_51017910
-  - http_6e59f010
-  - http_3b8c5910
-  - vless_491ca110
-  - http_d4f5d210
-  - http_b46f8110
-  - http_5b49d110
-  - http_e6482210
-  - http_79b7a810
-  - http_56943910
-  - http_9cffd410
-  - http_ddfc0510
-  - http_3ca8d210
-  - http_abed61010
-  - http_2dece010
-  - http_0fd0c510
-  - http_a9a08310
-  - http_03218810
-  - http_0892c310
-  - http_46ea5210
-  - http_564fd710
-  - vless_b26b11010
-  - http_e2c3f710
-  - http_3dd7a710
-  - http_a3ddc310
-  - anytls_bbc74610
-  - http_13b71210
-  - http_1145d910
-  - http_218e6810
-  - http_2d93a410
-  - http_855c7610
-  - http_f7748510
-  - http_57422610
-  - vless_91510110
-  - http_ce055310
-  - http_826881010
-  - ss_05153210
-  - vless_3fa65710
-  - vmess_13070710
-  - vless_28441110
-  - vmess_16a1d310
-  - vmess_7f0e1710
-  - vmess_7f2fb810
-  - ss_8e14a610
-  - vless_f004b210
-  - vless_fe63d510
-  - vmess_72442510
-  - vmess_18540610
-  - vless_2bdf7810
-  - vmess_c0a49610
-  - vless_89718910
-  - vmess_69fbb610
-  - vmess_1b277310
-  - vless_4a4c4410
-  - trojan_68b05110
-  - ss_16b53110
-  - trojan_f068a010
-  - vmess_0c532310
-  - trojan_244dc710
-  - ss_720a7310
-  - vmess_119b1510
-  - vless_58b2a610
-  - trojan_1d7f4710
-  - vmess_9943b210
-  - ss_6c2461010
-  - vmess_4b520410
-  - vless_dd7c6810
-  - trojan_7dd86310
-  - vmess_12a5c410
-  - ss_8e221610
-  - vless_e2787310
-  - vless_628f6610
-  - ss_e9526310
-  - vless_20820210
-  - ss_a7b5b410
-  - ss_bf47e110
-  - ss_7b722110
-  - vless_9867b310
-  - vless_b171f610
-  - vless_bb93d510
-  - vless_662c4310
-  - http_94033110
-  - socks5_5eb1b810
-  - trojan_8c12c610
-  - trojan_23fca210
-  - trojan_56f78210
-  - trojan_d7186210
-  - trojan_802f0010
-  - trojan_e4d6e410
-  - trojan_949ed410
-  - trojan_fb9b8910
-  - trojan_eb38e610
-  - trojan_737bc910
-  - trojan_baf44310
-  - ss_2adae210
-  - ss_d25c8610
-  - ss_4d0f0810
-  - ss_ce774510
-  - ss_27b4c910
-  - ss_d2036810
-  - ss_0669f910
-  - ss_a11af1010
-  - ss_cb897710
-  - ss_d3d27110
-  - ss_0a704810
-  - ss_de888610
-  - ss_e9791910
-  - ss_7f5e0210
-  - ss_3bdb9710
-  - ss_a2b99510
-  - ss_22de7610
-  - ss_d89c0510
-  - ss_188a7510
-  - ss_b90fb210
-  - ss_34f51910
-  - ss_18adc610
-  - ss_68fdb710
-  - ss_def0f710
-  - ss_fe5ab610
-  - ss_c5d9f510
-  - ss_b939b210
-  - ss_a4f8c1010
-  - ss_fc0ee1010
-  - ss_caf0c610
-  - ss_009b9010
-  - ss_c87891010
-  - ss_8df2d210
-  - ss_5efb2010
-  - ss_42625610
-  - ss_2f838010
-  - ss_26084110
-  - ss_ac279710
-  - ss_aa872010
-  - ss_9a188410
-  - ss_f8a58910
-  - ss_1baef610
-  - ss_dbae1510
-  - ss_12457110
-  - ss_08520710
-  - ss_0c43e110
-  - ss_eb64f210
-  - ss_1348b710
-  - ss_752c2410
-  - ss_02224110
-  - ss_9cac6810
-  - ss_c2bd2110
-  - ss_3d247610
-  - ss_239b9510
-  - ss_252ba210
-  - ss_f6973310
-  - ss_8daee910
-  - ss_602f5910
-  - ss_73566910
-  - ss_7fbb61010
-  - ss_ff0ab410
-  - ss_0162b410
-  - ss_7d1a3710
-  - ss_b10381010
-  - ss_eb9e4010
-  - ss_09f2f1010
-  - ss_211ff210
-  - ss_a153a610
-  - ss_e0b8e410
-  - ss_bab661010
-  - vless_a13281010
-  - ss_701b0510
-  - vless_b32c3710
-  - vless_e5256610
+  - vless_3a8e8610
+  - vless_a65be1010
+  - vless_653b9310
+  - vless_b980b910
+  - vless_be9e31010
+  - trojan_6170d810
+  - vless_6a9bc1010
+  - vless_581b0910
+  - vless_87cc1210
+  - vless_664fa910
+  - vless_f859f310
+  - vless_c8258310
+  - vless_9eaa4510
+  - vless_69734410
+  - vless_b4af0810
+  - trojan_408c3610
+  - vless_a5c79810
+  - vless_b0f29110
+  - anytls_1e14d610
+  - trojan_f7114910
+  - vless_9ef53510
+  - ss_1cffc1010
+  - trojan_93898510
+  - ss_34242610
+  - vmess_ca731810
+  - ss_ab3e51010
+  - ss_13e19010
+  - ss_6bd93410
+  - ss_083b2510
+  - trojan_ebb9c1010
+  - ss_c1c88810
+  - ss_17e3e1010
+  - ss_9ec5a810
+  - trojan_69068910
+  - ss_3ec68810
+  - ss_f7992910
+  - vmess_3244f410
+  - ss_58d93510
+  - ss_c3aa8710
+  - ss_07a59210
+  - trojan_c7dca210
+  - trojan_a1f97310
+  - trojan_958b3910
+  - ss_cab67910
+  - trojan_fa45b810
+  - ss_4d2e01010
+  - ss_6cf66110
+  - trojan_27b70610
+  - ss_b0e04310
+  - ss_16105410
+  - ss_b2f90710
+  - ss_19465210
+  - ss_dad57310
+  - ss_1a73d310
+  - ss_ea443810
+  - trojan_0a640410
+  - trojan_8da88610
+  - trojan_64e9d410
+  - trojan_39f3a410
+  - trojan_d60d1010
+  - trojan_2e1a2710
+  - trojan_96580010
+  - trojan_9bba4010
+  - trojan_17305610
+  - trojan_93cc0810
+  - trojan_557ea310
+  - trojan_566861010
+  - trojan_96ae41010
+  - trojan_eb5a7810
+  - trojan_a5007910
+  - trojan_94287510
+  - trojan_62d9c710
+  - trojan_99686110
+  - trojan_6f9b6510
+  - trojan_cd019210
+  - trojan_57af8610
+  - ssr_a44f7210
+  - http_e3704910
+  - http_3e0da410
+  - http_7539b510
+  - ss_83a23210
+  - vless_24e01310
+  - hysteria2_abdad110
+  - vless_15bfc510
+  - vless_f33b8910
+  - vless_b5285510
+  - vless_a2083610
+  - vless_5f99b410
+  - vless_2e749110
+  - vless_edae6610
+  - http_0baef210
+  - http_5e6cc910
+  - http_30f61310
+  - http_1c09d910
+  - http_0f1f8210
+  - http_c15dd510
+  - vless_1998c310
+  - vless_4d11d210
+  - trojan_7eead010
+  - vless_d764a910
+  - vless_64da0410
+  - vless_b38541010
+  - vless_6b45d210
+  - vless_a5753710
+  - trojan_fa1fa310
+  - vless_00d3e210
+  - vmess_fad81010
+  - vless_adf8f810
+  - vless_ab709810
+  - vless_60609010
+  - vless_46b27410
+  - vless_adf86210
+  - vless_dcba5610
+  - vless_3a58b410
+  - vless_d1c08610
+  - vless_192ae410
+  - vless_65231810
+  - vless_01c85210
+  - socks5_192841010
+  - http_54832010
+  - http_1ec20210
+  - http_ef5da310
+  - http_55af7010
+  - http_7dbf2310
+  - http_fa821010
+  - http_662b3110
+  - http_d8c2e510
+  - http_6f82c610
+  - http_cd734810
+  - http_13a2a1010
+  - vmess_b1de9910
+  - http_f7a2e410
+  - http_b79fe110
+  - http_8bf66010
+  - http_79e0a010
+  - http_7c49f1010
+  - http_ac56b410
+  - http_a4a49910
+  - http_39c11010
+  - http_66742010
+  - http_b281f610
+  - http_92d80810
+  - anytls_8226a310
+  - socks5_3b36c1010
+  - hysteria2_57df7510
+  - ss_b5e7b410
+  - http_06658510
+  - http_92090710
+  - http_f3351510
+  - http_3b8ef210
+  - vless_829f7310
+  - http_93f51410
+  - http_752d8210
+  - http_efde4310
+  - http_61696610
+  - vmess_5813e010
+  - http_a02bc510
+  - http_0a516010
+  - http_f6e7f410
+  - http_84997710
+  - http_34e1d310
+  - http_df6f5710
+  - http_744771010
+  - http_5a6a5210
+  - http_5f072810
+  - http_8bfa4810
+  - http_44cc4010
+  - http_bb8a0610
+  - http_d4f37210
+  - http_82998010
+  - http_06f4a110
+  - http_43090310
+  - http_d7d18910
+  - vless_4ee16110
+  - http_adbef510
+  - http_0bb27110
+  - http_24e72410
+  - http_81f8b610
+  - http_52ff31010
+  - http_ad7b7410
+  - http_a52ad1010
+  - socks5_d40091010
+  - http_2e551010
+  - http_d871c610
+  - http_fb639010
+  - http_941d0210
+  - http_f9670210
+  - http_c4f58010
+  - http_aaac7310
+  - http_53cfe210
+  - http_4c10d010
+  - http_f2e91610
+  - http_136ca210
+  - http_279ff010
+  - http_020d4910
+  - http_2880d410
+  - http_dc23e510
+  - http_de813410
+  - http_6f909610
+  - http_bbcb2610
+  - http_2548e610
+  - http_33a5c010
+  - http_42ecc610
+  - http_6fcbc710
+  - vless_d5b5a710
+  - http_27d47210
+  - http_24d55110
+  - http_e426b1010
+  - http_a5938810
+  - http_89ec0010
+  - http_0d487410
+  - http_fe529810
+  - http_94bda810
+  - http_5d871610
+  - http_b2f66410
+  - http_60c641010
+  - http_7afbb010
+  - http_a551e010
+  - http_a25e3510
+  - http_8b86c710
+  - http_cc6a41010
+  - http_cf98a010
+  - http_3fec1610
+  - http_2bfc1210
+  - http_b6242410
+  - http_6d298610
+  - http_7609a110
+  - http_e8b6a410
+  - http_a3069510
+  - http_fdf68310
+  - http_2eedd410
+  - http_c82eb010
+  - http_54558610
+  - http_84302110
+  - http_e21c6510
+  - vmess_45895210
+  - vless_0937a210
+  - vless_03acb1010
+  - vless_13c67910
+  - vmess_db463710
+  - vless_7dac8710
+  - ss_d37dd1010
+  - vless_cec8f310
+  - vless_52f15310
+  - vmess_6999c1010
+  - vless_fd3d5410
+  - vless_d25e5110
+  - vmess_e3d6c1010
+  - ss_43132710
+  - vless_f1166910
+  - vless_d9736410
+  - vmess_a126a510
+  - vless_b2093310
+  - trojan_20edf710
+  - ss_192ed910
+  - ss_7b69c610
+  - ss_19843710
+  - vless_6983e210
+  - vless_8ff1d710
+  - vmess_1ed55010
+  - vmess_834e3810
+  - ss_facc7010
+  - vless_d990c610
+  - vless_66a93910
+  - vless_264c5810
+  - ss_6d23a510
+  - ss_42b9c310
+  - vless_6f20a1010
+  - vmess_0853a410
+  - vless_7dbf4610
+  - ss_a044e910
+  - vless_77257310
+  - vmess_e8362610
+  - vless_693fc210
+  - ss_6b759010
+  - vmess_2e52f210
+  - ss_8e8ad410
+  - ss_e11dd010
+  - ss_2fb9b710
+  - vless_5d70d210
+  - ss_92c74810
+  - vmess_ddcfa810
+  - vless_cf0d8810
+  - vless_11df4410
+  - vless_17b8f910
+  - ss_2e266010
+  - vless_e00c61010
+  - trojan_3147f810
+  - trojan_d17661010
+  - vless_59cb1210
+  - ss_6bdeb210
+  - vless_18695110
+  - trojan_d6e9e410
+  - ss_8f15c1010
+  - vmess_c70dc810
+  - vmess_85358410
+  - vless_957c4310
+  - ss_3d06a910
+  - vmess_b6d4b210
+  - vmess_9ccea610
+  - ss_07eb31010
+  - ss_80a38610
+  - ss_ac23e1010
+  - vmess_11a2a210
+  - vless_27d9b210
+  - vless_71800210
+  - vless_98b4e910
+  - anytls_f01a7010
+  - socks5_873d2010
+  - http_747c71010
+  - socks5_8418d010
+  - trojan_b18e5710
+  - trojan_281ab110
+  - trojan_aaf8e510
+  - trojan_a123f210
+  - trojan_cdc2c610
+  - trojan_7a011310
+  - trojan_f9269410
+  - ss_8bdbd910
+  - ss_b6952810
+  - ss_c5e36010
+  - ss_f0d70810
+  - ss_0f88e610
+  - ss_05a1d710
+  - ss_1a3f8210
+  - ss_0811e910
+  - ss_c40f5510
+  - ss_c672b910
+  - ss_bb9f0110
+  - ss_1eb2f110
+  - ss_6d154810
+  - ss_2cdf5310
+  - ss_87030410
+  - ss_e1d18910
+  - ss_aac741010
+  - ss_96d3c410
+  - ss_cd149510
+  - ss_c0845010
+  - ss_29cb8610
+  - ss_6e00f310
+  - ss_59903210
+  - ss_242a6010
+  - ss_caf6d410
+  - ss_3268a010
+  - ss_ea7f3410
+  - ss_3be1d310
+  - ss_eb329410
+  - ss_eee7f710
+  - ss_c1acc810
+  - ss_f6871210
+  - ss_b6b1a110
+  - ss_dbf67510
+  - ss_0c14c710
+  - ss_0b950910
+  - ss_b6506910
+  - ss_ab939410
+  - ss_ef008610
+  - ss_847401010
+  - ss_79eba710
+  - ss_d47bb210
+  - ss_195251010
+  - ss_3253c410
+  - ss_30693110
+  - ss_d4ac4710
+  - ss_3b600310
+  - ss_ec85b1010
+  - ss_2e5c3810
+  - ss_9d3a6910
+  - ss_7091f510
+  - ss_26596710
+  - ss_eaf03210
+  - ss_7fb45610
+  - ss_c85a8510
+  - ss_6b3dd110
+  - vless_1a82f210
+  - vless_c2b5e010
+  - vless_36724510
+  - vless_bd7c11010
+  - vless_4873d210
+  - vless_a2fc5510
+  - vless_aab16010
 rules:
 - GEOIP,LAN,DIRECT
 - GEOIP,CN,DIRECT
